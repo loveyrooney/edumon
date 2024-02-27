@@ -1,0 +1,90 @@
+@media screen and (min-width: 1024px)
+, screen and (min-height: 1024px)
+and (orientation: landscape){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #wrap{
+        width: 90vw;
+        margin: 0 auto;
+    }
+    ul li{
+        list-style: none;
+    }
+    #book_img img{
+        width: 25vw;
+    }
+    #composition_img{
+        display: flex;
+        justify-content: center;
+        margin: 5vh 0;
+    }
+    #top{
+        width: 80vw;
+        margin: 0 auto;
+        padding-bottom: 3vh;
+        display: flex;
+        justify-content: center;
+    }
+    figure{
+        margin: 5vw;
+    }
+    figure img{
+        width: 20vw;
+    }
+    #purchase_form{
+        margin: 5vw;
+    }
+    #purchase_form>ul>li{
+        padding: 1.5vh;
+        font-size: 1.3rem;
+    }
+    #purchase_form>ul>li>label{
+        display: inline-block;
+        width: 10vw;
+        font-weight: bolder;
+    }
+    #line{
+        border: 1px solid silver;
+    }
+    #middle{
+        margin: 7vh auto;
+        display: flex;
+        justify-content: center;
+        padding: 1.5vh;
+        font-size: 1.3rem;
+    }
+    #notice_list{
+        margin: 2vh 3vw;
+    }
+    .list{
+        display: inline-block;
+        width: 10vw;
+        font-weight: bolder;
+    }
+    .list2{
+        display: inline-block;
+    }
+    .d{
+        position:relative;
+    }
+    /* 하단 공지 */
+    #bottom_notice h4{
+        padding: 1vh 0;
+        width: 17vw;
+    }
+    #bottom_notice ul{
+        /*max-height: 0;*/
+        overflow: hidden;
+        width: 60vw;
+    }
+}
+
+
+
+
+
+
+
+
