@@ -1,0 +1,131 @@
+@media screen and (min-width: 768px),
+screen and (min-height: 760px) and (orientation: landscape) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #wrap {
+        margin: 0 auto;
+        width: 95%;
+        text-align: center;
+    }
+    #wrap>h1 {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    #wrap>h3 {
+        padding-bottom: 60px;
+    }
+
+    .info{
+        display: flex;
+        justify-content:center;
+        padding-bottom: 5px;
+    }
+    #notice{
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    #line{
+        border-bottom: 2px solid silver;
+    }
+
+    .txt{
+        padding: 40px 0px;
+        font-weight: bold;
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .txt input{
+        padding: 10px;
+        padding-right: 80px;
+        margin: 0px 70px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    button{
+        font-size: 1rem;
+        border-radius: 20px;
+        padding: 10px 30px;
+        color: gray;
+        background-color: lightgray;
+        border: 0;
+        margin: 10px 40px;
+    }
+    button:hover{
+        color: white;
+        background-color: cadetblue;
+    }
+
+}
+
+
+@media screen and (max-width: 767px),
+screen and (max-height: 479px) and (orientation: landscape) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #wrap {
+        margin: 0 auto;
+        width: 95%;
+        text-align: center;
+    }
+    #wrap>h1 {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    #wrap>h3 {
+        padding-bottom: 60px;
+    }
+
+    .info{
+        text-align: left;
+    }
+    #notice{
+        padding: 12px;
+    }
+    #line{
+        border-bottom: 2px solid silver;
+    }
+    .txt{
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 30px 40px;
+    }
+
+    #irum label, #num label{
+        display: inline-block;
+        width: 85px;
+        text-align: left;
+    }
+
+    .txt input {
+        padding: 10px 80px 10px 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        margin: 10px 20px;
+    }
+
+    button{
+        font-size: 1rem;
+        border-radius: 20px;
+        padding: 10px 30px;
+        color: gray;
+        background-color: lightgray;
+        border: 0;
+        margin: 10px 20px;
+    }
+    button:hover{
+        color: white;
+        background-color: cadetblue;
+    }
+}
