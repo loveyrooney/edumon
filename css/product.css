@@ -1,0 +1,256 @@
+@media screen and (min-width: 768px),
+screen and (min-height: 760px) and (orientation: landscape) {
+
+    * {
+        padding: 0;
+    }
+
+    #wrap {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .one{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 0px;
+        width: 100%;
+        border-bottom: 2px solid silver;
+        position: relative;
+        justify-content: center;
+
+    }
+    .one img {
+        position: relative;
+        margin-right: 5px;
+        width: 37%;
+    }
+    /* Chat containers */
+    .container {
+        border: 2px solid #dedede;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+        padding: 7px 10px;
+        margin: 3px 0;
+    }
+    .container p{
+        font-size: 1rem;
+    }
+
+    /* Darker chat container */
+    .darker {
+        border-color: #ccc;
+        background-color: #ddd;
+    }
+
+    /* Clear floats */
+    .container::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    /* Style images */
+    .container img {
+        float: left;
+        max-width: 50px;
+        width: 50%;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+
+    /* Style the right image */
+    .container img.right {
+        float: right;
+        margin-left: 20px;
+        margin-right:0;
+    }
+
+    /* Style time text */
+    .time-right {
+        float: right;
+        color: #aaa;
+        font-size: 0.6rem;
+        position: relative;
+        top: -10px;
+    }
+
+    /* Style time text */
+    .time-left {
+        float: left;
+        color: #999;
+        font-size: 0.6rem;
+        position: relative;
+        top: -10px;
+    }
+
+    .two{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+    }
+    .month, .boy{
+        padding: 50px;
+        align-self: center;
+    }
+    .thumb{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .two h4, .two h5{
+        margin: 7px;
+    }
+    .two a{
+        display: block;
+    /*    position: relative;*/
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.1rem;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: gray;
+        font-weight: bold;
+        background-color: lightgray;
+        border: 0;
+        margin: 10px 80px;
+    }
+    .two a:hover{
+        color: white;
+        background-color: cadetblue;
+    }
+    #image{
+        position: relative;
+        justify-content: center;
+        top: 50px;
+        left: 22vw;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 767px),
+screen and (max-height: 479px) and (orientation: landscape) {
+
+    * {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #wrap {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        padding: 3px 0px;
+        border-bottom: 2px solid silver;
+    }
+
+    .one img {
+        position: relative;
+        width: 100%;
+    }
+    /* Chat containers */
+    .container {
+        border: 2px solid #dedede;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+        padding: 3px 10px;
+        margin: 3px 0;
+    }
+    .container p{
+        font-size: 1rem;
+    }
+
+    /* Darker chat container */
+    .darker {
+        border-color: #ccc;
+        background-color: #ddd;
+    }
+
+    /* Clear floats */
+    .container::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    /* Style images */
+    .container img {
+        float: left;
+        max-width: 50px;
+        width: 50%;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+
+    /* Style the right image */
+    .container img.right {
+        float: right;
+        margin-left: 20px;
+        margin-right:0;
+    }
+
+    /* Style time text */
+    .time-right {
+        float: right;
+        color: #aaa;
+        font-size: 0.6rem;
+        position: relative;
+        top: -3px;
+    }
+
+    /* Style time text */
+    .time-left {
+        float: left;
+        color: #999;
+        font-size: 0.6rem;
+        position: relative;
+        top: 1px;
+    }
+
+
+    .two{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .month, .boy{
+        padding: 20px;
+        align-self: center;
+    }
+    .thumb{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .two h4, .two h5{
+        margin: 7px;
+    }
+    .two a{
+        display: block;
+        /*    position: relative;*/
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.1rem;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: gray;
+        font-weight: bold;
+        background-color: lightgray;
+        border: 0;
+        margin: 10px 80px;
+    }
+    .two a:hover{
+        color: white;
+        background-color: cadetblue;
+    }
+    #image{
+        width: 100vw;
+        position: relative;
+        top: 50px;
+        margin: 0 auto;
+    }
+}
