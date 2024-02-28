@@ -1,5 +1,5 @@
-@media screen and (min-width: 1024px)
-, screen and (min-height: 1024px)
+@media screen and (min-width: 768px),
+screen and (min-height: 760px)
 and (orientation: landscape){
     *{
         margin: 0;
@@ -35,6 +35,9 @@ and (orientation: landscape){
     #purchase_form>ul>li{
         padding: 1.6vh;
         font-size: 1.4rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
     #purchase_form>ul>li>label{
         display: inline-block;
@@ -55,11 +58,23 @@ and (orientation: landscape){
     }
     #purchase_form li:nth-child(5)>span:nth-child(2){
         text-decoration: line-through;
+        margin-right: 10px;
     }
     #purchase_form li:nth-child(5)>span:nth-child(4){
         font-weight: bolder;
         font-size: 1.6rem;
         color: #E5414C;
+        position: relative;
+        top: -3.2px;
+        margin-left: 10px;
+    }
+    #purchase_form li:last-child{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .btn{
+        margin-bottom: 10px;
     }
     #tel{
         text-decoration: none;
@@ -67,7 +82,7 @@ and (orientation: landscape){
         font-weight: bold;
         background-color: #2ACAAF;
         margin-right: 10px;
-        padding: 1vh;
+        padding: 6px 12px;
         border-radius: 2vh;
     }
     #tel:before{
@@ -76,6 +91,9 @@ and (orientation: landscape){
         position: relative;
         top: 8px;
     }
+    #buy{
+        margin-right: 10px;
+    }
     #buy, #add{
         background-color: #2ACAAF;
         color: rgb(51,51,51);
@@ -83,8 +101,8 @@ and (orientation: landscape){
         font-size: 1.4rem;
         border: none;
         padding: 0.5vh 1.1vw 1vh;
-        margin: 7px 10px;
         border-radius: 2vh;
+        cursor: pointer;
     }
     #buy:before{
         content: url("../img/credit.png");
@@ -183,6 +201,171 @@ and (orientation: landscape){
         display: list-item;
         list-style-type: disc;
         line-height: 2.2vh;
+    }
+}
+
+@media screen and (max-width: 767px),
+screen and (max-height: 479px)
+and (orientation: landscape){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #wrap{
+        width: 90%;
+        margin: 0 auto;
+    }
+    ul li{
+        list-style: none;
+    }
+    /* top 시작 */
+    #top{
+        width: 80vw;
+        margin: 5vh auto;
+    }
+    figure{
+        display: flex;
+        justify-content: center;
+    }
+    figure img{
+        width: 70vw;
+        margin-bottom: 3vh;
+    }
+    #purchase_form ul li{
+        padding: 1vh;
+    }
+    #purchase_form ul span, #grade, #num{
+        margin-left: 5vw;
+    }
+    #purchase_form>ul>li>label{
+        display: inline-block;
+        width: 20vw;
+        margin-right: 1.5vw;
+        font-weight: bolder;
+    }
+    #purchase_form>ul>li{
+        padding: 1.6vh 2vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    #purchase_form li:nth-child(5)>span:nth-child(2){
+        text-decoration: line-through;
+    }
+    #purchase_form li:nth-child(5)>span:nth-child(4) {
+        font-weight: bolder;
+        color: #E5414C;
+        margin-left: 10px;
+    }
+    #grade{
+        display: inline-block;
+        width: 27vw;
+    }
+    #num{
+        display: inline-block;
+        width: 25vw;
+    }
+    #tel, #buy, #add{
+        font-size: 0.9rem;
+    }
+    #tel{
+        text-decoration: none;
+        color: rgb(51,51,51);
+        font-weight: bold;
+        background-color: #2ACAAF;
+        margin-right: 10px;
+        padding: 6px 12px;
+        border-radius: 2vh;
+    }
+    #tel:before{
+        content: url("../img/telephone.png");
+        position: relative;
+        top: 8px;
+    }
+    #buy{
+        margin-right: 10px;
+    }
+    #buy, #add{
+        background-color: #2ACAAF;
+        color: rgb(51,51,51);
+        font-weight: bold;
+        border: none;
+        border-radius: 2vh;
+        cursor: pointer;
+    }
+    #buy:before{
+        content: url("../img/credit.png");
+        padding: 0 1vw 0 0;
+        position: relative;
+        top: 8px;
+    }
+    #add:before{
+        content: url("../img/shopping-cart.png");
+        padding: 0 1vw 0 0;
+        position: relative;
+        top: 8px;
+    }
+
+    #banner{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5vh;
+    }
+    #banner img{
+        width: 100vw;
+    }
+    /* middle 시작 */
+    #notice_list{
+        margin: 5vh 0;
+    }
+    #notice_list li{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-bottom: 2vh;
+    }
+    .list{
+        display: inline-block;
+        width: 20vw;
+        font-weight: bolder;
+        margin-right: 5vw;
+    }
+    #notice_list li span:nth-child(2){
+        width: 70vw;
+    }
+
+    #book_img{
+        display: flex;
+        justify-content: center;
+    }
+    #composition_img{
+        display: flex;
+        justify-content: center;
+    }
+    #composition_img img{
+        width: 90vw;
+    }
+
+    /* 하단 공지사항 */
+    #bottom_notice{
+        margin: 5vh 0;
+    }
+    .notice{
+        padding: 1.5vh 0;
+    }
+
+    #bottom_notice ul{
+        max-height: 0;
+        overflow: hidden;
+        transition:max-height 0.3s ease-in-out;
+
+    }
+    #bottom_notice ul li{
+        padding: 0.8vh 0;
+    }
+    .line{
+        border: 1px solid silver;
+        margin: 1vh 0;
     }
 }
 

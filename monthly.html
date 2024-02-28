@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Title</title>
 	<script defer src="js/monthly.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=2.0">
 	<link rel="stylesheet" href="css/monthly.css">
 </head>
 <body>
@@ -11,7 +12,7 @@
 	<div id="top">
 		<figure>
 			<img src="img/monthly_book1.jpg" alt="월간우등생 학습(2024) 이미지">
-			<figcaption>월간우등생 학습(2024)</figcaption>
+<!--			<figcaption>월간우등생 학습(2024)</figcaption>-->
 		</figure>
 		<div id="purchase_form">
 			<ul>
@@ -43,13 +44,14 @@
 				<li>
 					<label>판매가</label>
 					<span>169,000</span>
-					<span>-></span>
+					<span>→</span>
 					<span>160,550</span>
+					<!--<span><s>169,000</s> -> 160,550</span>-->
 				</li>
 				<li>
-					<a href="#" id="tel">전화 주문</a>
-					<button type="button" id="buy">바로 구매</button>
-					<button type="button" id="add">장바구니 추가</button>
+					<a href="#" id="tel" class="btn">전화 주문</a>
+					<button type="button" id="buy" class="btn">바로 구매</button>
+					<button type="button" id="add" class="btn">장바구니 추가</button>
 				</li>
 			</ul>
 		</div>
