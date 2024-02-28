@@ -6,48 +6,112 @@ and (orientation: landscape){
         padding: 0;
     }
     #wrap{
-        width: 90vw;
+        width: 90%;
         margin: 0 auto;
     }
     ul li{
         list-style: none;
     }
-    #book_img img{
-        width: 25vw;
-    }
-    #composition_img{
-        display: flex;
-        justify-content: center;
-        margin: 5vh 0;
-    }
+
+    /* top 시작 */
     #top{
         width: 80vw;
-        margin: 0 auto;
+        margin: 10vh auto 0;
         padding-bottom: 3vh;
         display: flex;
         justify-content: center;
     }
-    figure{
-        margin: 5vw;
-    }
     figure img{
-        width: 20vw;
+        width: 350px;
+    }
+    figcaption{
+        text-align: center;
+        padding-top: 1vh;
+        font-size: 1.2rem;
     }
     #purchase_form{
-        margin: 5vw;
+        margin-left: 5vw;
     }
     #purchase_form>ul>li{
-        padding: 1.5vh;
-        font-size: 1.3rem;
+        padding: 1.6vh;
+        font-size: 1.4rem;
     }
     #purchase_form>ul>li>label{
         display: inline-block;
         width: 10vw;
         font-weight: bolder;
     }
-    #line{
+    #grade{
+        display: inline-block;
+        padding: 0.3vh;
+        font-size: 1.2rem;
+        width: 12vw;
+    }
+    #num{
+        display: inline-block;
+        padding: 0.3vh 0.5vw;
+        font-size: 1.2rem;
+        width: 10.8vw;
+    }
+    #purchase_form li:nth-child(5)>span:nth-child(2){
+        text-decoration: line-through;
+    }
+    #purchase_form li:nth-child(5)>span:nth-child(4){
+        font-weight: bolder;
+        font-size: 1.6rem;
+        color: #E5414C;
+    }
+    #tel{
+        text-decoration: none;
+        color: rgb(51,51,51);
+        font-weight: bold;
+        background-color: #2ACAAF;
+        margin-right: 10px;
+        padding: 1vh;
+        border-radius: 2vh;
+    }
+    #tel:before{
+        content: url("../img/telephone.png");
+        padding: 0 1vw 0 0;
+        position: relative;
+        top: 8px;
+    }
+    #buy, #add{
+        background-color: #2ACAAF;
+        color: rgb(51,51,51);
+        font-weight: bold;
+        font-size: 1.4rem;
+        border: none;
+        padding: 0.5vh 1.1vw 1vh;
+        margin: 7px 10px;
+        border-radius: 2vh;
+    }
+    #buy:before{
+        content: url("../img/credit.png");
+        padding: 0 1vw 0 0;
+        position: relative;
+        top: 8px;
+    }
+    #add:before{
+        content: url("../img/shopping-cart.png");
+        padding: 0 1vw 0 0;
+        position: relative;
+        top: 8px;
+    }
+    #banner{
+        display: flex;
+        justify-content: center;
+        margin: 5vh 0 12vh
+    }
+    #banner img{
+        width: 70vw;
+    }
+
+    .line{
         border: 1px solid silver;
     }
+
+    /*  middle 시작 */
     #middle{
         margin: 7vh auto;
         display: flex;
@@ -56,28 +120,69 @@ and (orientation: landscape){
         font-size: 1.3rem;
     }
     #notice_list{
-        margin: 2vh 3vw;
+        margin: 2vh 1vw 2vh 3vw;
+    }
+    #notice_list li{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 0.7vh 0;
+    }
+    #notice_list li span:nth-child(2){
+        width: 30vw;
     }
     .list{
         display: inline-block;
         width: 10vw;
         font-weight: bolder;
+        font-size: 1.4rem;
     }
-    .list2{
-        display: inline-block;
+    #book_img img{
+        width: 450px;
     }
-    .d{
-        position:relative;
+    #composition_img{
+        display: flex;
+        justify-content: center;
+        margin: 5vh 0;
     }
+    #composition_img img{
+        width: 63vw;
+    }
+
     /* 하단 공지 */
-    #bottom_notice h4{
+    #bottom_notice{
+        margin: 0 auto 10vh;
+        width: 80vw;
+    }
+    #bottom_notice section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .notice{
         padding: 1vh 0;
-        width: 17vw;
+        margin-left: 7vw;
+        width: 19vw;
+        cursor: pointer;
+        font-size: 1.2rem;
     }
     #bottom_notice ul{
-        /*max-height: 0;*/
+        max-height: 0;
         overflow: hidden;
         width: 60vw;
+        margin-right: 7vw;
+        transition:max-height 0.3s ease-in-out;
+    }
+    #bottom_notice ul li:first-child,
+    #bottom_notice ul li:last-child{
+        margin: 9px 0;
+    }
+    #bottom_notice ul li{
+        padding: 0.3vh 0;
+        display: list-item;
+        list-style-type: disc;
+        line-height: 2.2vh;
     }
 }
 
