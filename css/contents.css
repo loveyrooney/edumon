@@ -10,7 +10,7 @@
     }
 
     body {
-        background-color: rgb(237, 238, 233);
+        background-color:  rgba(242,242,242, 50%);
     }
 
     .head {
@@ -59,7 +59,7 @@
 
     .view img {
         position: absolute;
-        left: 23vw;
+        left: 20vw;
         bottom: 7vh;
         width: 40%;
         height: 40%;
@@ -107,7 +107,7 @@ and (orientation: landscape) {
         width: 90%;
     }
     body{
-        background-color: rgb(237,238,233);
+        background-color:  rgba(242,242,242, 50%);
     }
     .head{
         height: 300px;
@@ -147,9 +147,9 @@ and (orientation: landscape) {
         font-size: 25px;
     }
     .view img{
-        position: relative;
-        left: 18vw;
-        bottom: -14vh;
+        position: absolute;
+        left: 21vw;
+        bottom: 4vh;
         width: 40%;
         height: 40%;
     }
@@ -157,8 +157,8 @@ and (orientation: landscape) {
         position: relative;
         opacity: 0;
         width: 100%;
-        height: 100%;
-        bottom: 31vh;
+        height: 99%;
+        bottom: 13vh;
         border-radius: 20px;
         z-index: 12;
     }
@@ -193,7 +193,7 @@ and (orientation: landscape) {
         width: 95%;
     }
     body{
-        background-color: rgb(237,238,233);
+        background-color:  rgba(242,242,242, 50%);
     }
     .head{
         height: 160px;
