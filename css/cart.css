@@ -1,0 +1,152 @@
+@media screen and (min-width: 768px),
+screen and (min-height: 760px)
+and (orientation: landscape){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #wrap{
+        width: 90%;
+        margin: 0 auto;
+    }
+    ul li{
+        list-style: none;
+    }
+    #cart{
+        margin: 15vh auto;
+    }
+    #cart h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .top{
+        margin: 10vh auto 3vh;
+        width: 60vw;
+    }
+    /* 테이블 시작 */
+    .middle_table{
+        display: table;
+        width: 60vw;
+        margin: 0 auto;
+    }
+    input[type=checkbox]{
+        zoom:1.5;
+        position: relative;
+        top: 4.4vh;
+    }
+    .cart_table_row{
+        display: table-row;
+    }
+    .cart_table_cell{
+        display: table-cell;
+        border: 1px solid silver;
+        font-size: 1.3rem;
+    }
+    .cart_table_cell:first-child{
+        text-align: center;
+    }
+    .cart_table_cell:nth-child(n+2) {
+        display: flex;
+        padding: 2vh 1.5vw;
+    }
+
+    /* 총 결제 금액 */
+    #tot_form{
+        margin: 7vh auto;
+        width: 60vw;
+    }
+    #tot_form label{
+        display: inline-block;
+        width: 20vw;
+        padding-left: 2vw;
+    }
+    #tot_form ul li{
+        padding: 5vh 2vw 5vh 0;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #tot_form input{
+        text-align: right;
+        padding-right: 1vw;
+        font-size: 1.2rem;
+    }
+    #tot_form ul li:last-child{
+        display: flex;
+        justify-content: end;
+    }
+    #order{
+        padding: 1.2vh 2.8vw;
+        font-size: 1.5rem;
+    }
+
+    /* 하단 공지 */
+    #bottom_notice{
+        margin: 0 auto 10vh;
+        width: 80vw;
+    }
+    #bottom_notice section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .notice{
+        padding: 1vh 0;
+        margin-left: 7vw;
+        width: 200px;
+        cursor: pointer;
+        font-size: 1.2rem;
+    }
+    #bottom_notice ul{
+        max-height: 0;
+        overflow: hidden;
+        width: 60vw;
+        margin: 0 7vw 0 3vw;
+        transition:max-height 0.3s ease-in-out;
+    }
+    #bottom_notice ul li:first-child,
+    #bottom_notice ul li:last-child{
+        margin: 9px 0;
+    }
+    #bottom_notice ul li{
+        padding: 0.3vh 0;
+        display: list-item;
+        list-style-type: disc;
+        line-height: 2.2vh;
+    }
+    .line {
+        border: 1px solid silver;
+        margin: 1vh 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.middle_table{
+    display: table;
+    width: 50vw;
+}
+.cart_table_row{
+    display: table-row;
+}
+.cart_table_cell{
+    display: table-cell;
+    border: 1px solid silver;
+}
+.cart_table_cell:nth-child(n+2){
+    display: flex;
+
+}*/
