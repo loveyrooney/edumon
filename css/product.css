@@ -25,11 +25,15 @@ screen and (min-height: 760px) and (orientation: landscape) {
         position: relative;
         margin-right: 5px;
         width: 37%;
+        border-bottom: 1px solid rgba(0, 0, 0, .05);
+        box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
+        border-radius: 20px;
+
     }
     /* Chat containers */
     .container {
-        border: 2px solid #dedede;
-        background-color: #f1f1f1;
+        border-bottom: 1px solid rgba(0, 0, 0, .05);
+        box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
         border-radius: 5px;
         padding: 7px 10px;
         margin: 3px 0;
@@ -41,7 +45,6 @@ screen and (min-height: 760px) and (orientation: landscape) {
     /* Darker chat container */
     .darker {
         border-color: #ccc;
-        background-color: #ddd;
     }
 
     /* Clear floats */
@@ -85,12 +88,20 @@ screen and (min-height: 760px) and (orientation: landscape) {
         top: -10px;
     }
 
+
     .two{
         display: flex;
         flex-direction: row;
         position: relative;
         justify-content: center;
     }
+    .two img{
+        border-bottom: 1px solid rgba(0, 0, 0, .05);
+        box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
+        border-radius: 20px;
+
+    }
+
     .month, .boy{
         padding: 50px;
         align-self: center;
@@ -115,6 +126,8 @@ screen and (min-height: 760px) and (orientation: landscape) {
         background-color: lightgray;
         border: 0;
         margin: 10px 80px;
+        border-bottom: 1px solid rgba(0, 0, 0, .05);
+        box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
     }
     .two a:hover{
         color: white;
@@ -154,6 +167,9 @@ screen and (max-height: 479px) and (orientation: landscape) {
         margin: 0 auto;
         width: 100%;
     }
+    body{
+        background-color:rgba(255,255,255, 100%);
+    }
     .one{
         display: flex;
         flex-direction: column;
@@ -166,14 +182,19 @@ screen and (max-height: 479px) and (orientation: landscape) {
     .one img {
         position: relative;
         width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, .05);
+        box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
+        border-radius: 20px;
+
     }
     /* Chat containers */
     .container {
         border: 2px solid #dedede;
-        background-color: #f1f1f1;
         border-radius: 5px;
         padding: 3px 10px;
         margin: 3px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, .05);
+        box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
     }
     .container p{
         font-size: 1rem;
@@ -182,7 +203,6 @@ screen and (max-height: 479px) and (orientation: landscape) {
     /* Darker chat container */
     .darker {
         border-color: #ccc;
-        background-color: #ddd;
     }
 
     /* Clear floats */
@@ -231,7 +251,11 @@ screen and (max-height: 479px) and (orientation: landscape) {
         display: flex;
         flex-direction: column;
     }
-
+    .two img{
+        border-bottom: 1px solid rgba(0, 0, 0, .05);
+        box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
+        border-radius: 20px;
+    }
     .month, .boy{
         padding: 20px;
         align-self: center;
@@ -256,6 +280,8 @@ screen and (max-height: 479px) and (orientation: landscape) {
         background-color: lightgray;
         border: 0;
         margin: 10px 80px;
+        border-bottom: 1px solid rgba(0, 0, 0, .05);
+        box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
     }
     .two a:hover{
         color: white;
@@ -263,7 +289,7 @@ screen and (max-height: 479px) and (orientation: landscape) {
     }
     .two a::before{
         content:"";
-        background-image: url("../img/pay.png");
+        background-image: url("/img/pay.png");
         background-size:30px 25px;
         width:30px;
         height:25px;
