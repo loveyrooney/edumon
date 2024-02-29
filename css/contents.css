@@ -91,19 +91,20 @@
     }
 
     body {
-        background-color:  rgba(242,242,242, 50%);
+        background-color:  rgba(255,255,255, 100%);
     }
 
     .head {
-        height: 250px;
-    }
+        height: 500px;
+        position: relative;
+        z-index: 8;
 
     .head h1 {
         text-align: center;
         position: relative;
         top: 30px;
-        font-size: 60px;
-    }
+        font-size: 150px;
+        z-index: 9;
 
     .view {
         border-bottom: 1px solid rgba(0, 0, 0, .05);
@@ -111,7 +112,7 @@
         margin: 10px;
         height: 600px;
         float: left;
-        position: relative;
+        position: absolute;
         left: 3vw;
         box-shadow: 0 20px 20px 0 rgba(0, 0, 0, .1);
         border-radius: 20px;
@@ -271,7 +272,7 @@ and (orientation: landscape) {
         width: 90%;
     }
     body{
-        background-color:  rgba(242,242,242, 50%);
+        background-color:  rgba(255,255,255, 100%);
     }
     .head{
         height: 300px;
@@ -444,7 +445,7 @@ and (orientation: landscape) {
 
     .contents li a { display: none;}
     body{
-        background-color:  rgba(242,242,242, 50%);
+        background-color:  rgba(255,255,255, 100%);
     }
     .head{
         height: 160px;
@@ -486,6 +487,7 @@ and (orientation: landscape) {
         bottom: 3vh;
         width: 35%;
         height: 55%;
+        z-index: 4;
     }
     .mask{
         position: relative;

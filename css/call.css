@@ -11,7 +11,7 @@ screen and (min-height: 760px) and (orientation: landscape) {
         text-align: center;
     }
     body{
-        background-color:rgba(242,242,242, 50%);
+        background-color:rgba(255,255,255, 100%);
     }
     #wrap>h1 {
         padding-top: 50px;
@@ -78,14 +78,15 @@ screen and (max-height: 479px) and (orientation: landscape) {
     #wrap {
         margin: 0 auto;
         width: 95%;
-        text-align: center;
     }
     #wrap>h1 {
         padding-top: 50px;
         padding-bottom: 10px;
+        text-align: center;
     }
     #wrap>h3 {
         padding-bottom: 60px;
+        text-align: center;
     }
 
     .info{
@@ -101,6 +102,7 @@ screen and (max-height: 479px) and (orientation: landscape) {
         font-weight: bold;
         font-size: 1.2rem;
         padding: 30px 40px;
+        text-align: center;
     }
 
     #irum label, #num label{
@@ -116,6 +118,8 @@ screen and (max-height: 479px) and (orientation: landscape) {
         margin: 10px 20px;
     }
 
+    .btn {text-align: center;}
+
     button{
         font-size: 1rem;
         border-radius: 20px;
@@ -125,6 +129,7 @@ screen and (max-height: 479px) and (orientation: landscape) {
         border: 0;
         margin: 10px 20px;
         font-weight: bold;
+        text-align: center;
     }
     button:hover{
         color: white;

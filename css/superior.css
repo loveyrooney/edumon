@@ -26,12 +26,12 @@
         border-bottom: 1px solid silver;
     }
 
-    ul li {
+    ul.list li, ul.tablist li {
         display: inline-block;
         list-style: none;
     }
 
-    ul li a {
+    ul.list li a, ul.tablist li a {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -63,6 +63,7 @@
         position: relative;
         left: 6vw;
         border-bottom: 1px solid black;
+        padding: 3vh 0vw;
     }
 
     .tabpanel img {
@@ -193,12 +194,12 @@ and (orientation: landscape) {
         border-bottom: 1px solid silver;
     }
 
-    ul li {
+    ul.list li, ul.tablist li {
         display: inline-block;
         list-style: none;
     }
 
-    ul li a {
+    ul.list li a, ul.tablist li a {
         display: inline-block;
         padding: 1vh 4vw 2vh 14vw;
         text-decoration: none;
@@ -231,6 +232,7 @@ and (orientation: landscape) {
         margin-left: 5vw;
         font-size: 15px;
         border-bottom: 1px solid black;
+        padding: 3vh 0vw;
     }
 
     .tabpanel img {
@@ -356,12 +358,12 @@ and (orientation: landscape) {
         border-bottom: 1px solid silver;
     }
 
-    ul li {
+    ul.list li, ul.tablist li {
         display: inline-block;
         list-style: none;
     }
 
-    ul li a {
+    ul.list li a, ul.tablist li a {
         display: inline-block;
         padding: 1vh 2vw 2vh 10vw;
         text-decoration: none;
@@ -396,6 +398,7 @@ and (orientation: landscape) {
         margin-left: 5vw;
         font-size: 15px;
         border-bottom: 1px solid black;
+        padding: 3vh 0vw;
     }
 
     .tabpanel img {
