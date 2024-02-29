@@ -20,7 +20,11 @@ screen and (min-height: 760px) and (orientation: landscape) {
     #wrap>h3 {
         padding-bottom: 60px;
     }
-
+    .image img{
+        position: relative;
+        top: -30px;
+        width: 50%;
+    }
     .info{
         display: flex;
         justify-content:center;
@@ -48,6 +52,7 @@ screen and (min-height: 760px) and (orientation: landscape) {
         margin: 0px 70px;
         border-radius: 5px;
         border: 1px solid gray;
+        box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
     }
 
     button{
@@ -59,6 +64,8 @@ screen and (min-height: 760px) and (orientation: landscape) {
         border: 0;
         margin: 10px 40px;
         font-weight: bold;
+        border-bottom: 1px solid rgba(0, 0, 0, .05);
+        box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
     }
     button:hover{
         color: white;
@@ -78,17 +85,24 @@ screen and (max-height: 479px) and (orientation: landscape) {
     #wrap {
         margin: 0 auto;
         width: 95%;
-    }
-    #wrap>h1 {
-        padding-top: 50px;
-        padding-bottom: 10px;
-        text-align: center;
-    }
-    #wrap>h3 {
-        padding-bottom: 60px;
         text-align: center;
     }
 
+    #wrap>h1 {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    #wrap>h3 {
+        padding-bottom: 60px;
+    }
+    body{
+        background-color:rgba(255,255,255, 100%);
+    }
+    .image img{
+        position: relative;
+        top: -30px;
+        width: 100%;
+    }
     .info{
         text-align: left;
     }
@@ -102,7 +116,6 @@ screen and (max-height: 479px) and (orientation: landscape) {
         font-weight: bold;
         font-size: 1.2rem;
         padding: 30px 40px;
-        text-align: center;
     }
 
     #irum label, #num label{
@@ -116,9 +129,8 @@ screen and (max-height: 479px) and (orientation: landscape) {
         border-radius: 5px;
         border: 1px solid gray;
         margin: 10px 20px;
+        box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
     }
-
-    .btn {text-align: center;}
 
     button{
         font-size: 1rem;
@@ -129,7 +141,8 @@ screen and (max-height: 479px) and (orientation: landscape) {
         border: 0;
         margin: 10px 20px;
         font-weight: bold;
-        text-align: center;
+        border-bottom: 1px solid rgba(0, 0, 0, .05);
+        box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
     }
     button:hover{
         color: white;
