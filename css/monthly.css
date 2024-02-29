@@ -181,7 +181,7 @@ and (orientation: landscape){
     .notice{
         padding: 1vh 0;
         margin-left: 7vw;
-        width: 19vw;
+        width: 200px;
         cursor: pointer;
         font-size: 1.2rem;
     }
@@ -189,7 +189,7 @@ and (orientation: landscape){
         max-height: 0;
         overflow: hidden;
         width: 60vw;
-        margin-right: 7vw;
+        margin: 0 7vw 0 3vw;
         transition:max-height 0.3s ease-in-out;
     }
     #bottom_notice ul li:first-child,
