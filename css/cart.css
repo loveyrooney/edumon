@@ -122,31 +122,3 @@ and (orientation: landscape){
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.middle_table{
-    display: table;
-    width: 50vw;
-}
-.cart_table_row{
-    display: table-row;
-}
-.cart_table_cell{
-    display: table-cell;
-    border: 1px solid silver;
-}
-.cart_table_cell:nth-child(n+2){
-    display: flex;
-
-}*/
