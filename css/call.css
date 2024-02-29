@@ -5,11 +5,13 @@ screen and (min-height: 760px) and (orientation: landscape) {
         margin: 0;
         padding: 0;
     }
-
     #wrap {
         margin: 0 auto;
         width: 95%;
         text-align: center;
+    }
+    body{
+        background-color:rgba(242,242,242, 50%);
     }
     #wrap>h1 {
         padding-top: 50px;
@@ -42,8 +44,7 @@ screen and (min-height: 760px) and (orientation: landscape) {
         justify-content: center;
     }
     .txt input{
-        padding: 10px;
-        padding-right: 80px;
+        padding: 10px 80px 10px 10px;
         margin: 0px 70px;
         border-radius: 5px;
         border: 1px solid gray;
@@ -53,16 +54,16 @@ screen and (min-height: 760px) and (orientation: landscape) {
         font-size: 1rem;
         border-radius: 20px;
         padding: 10px 30px;
-        color: gray;
+        color: rgb(120,120,120);
         background-color: lightgray;
         border: 0;
         margin: 10px 40px;
+        font-weight: bold;
     }
     button:hover{
         color: white;
-        background-color: cadetblue;
+        background-color: rgba(0, 180, 0, 100%);
     }
-
 }
 
 
@@ -119,13 +120,14 @@ screen and (max-height: 479px) and (orientation: landscape) {
         font-size: 1rem;
         border-radius: 20px;
         padding: 10px 30px;
-        color: gray;
+        color: rgb(120,120,120);
         background-color: lightgray;
         border: 0;
         margin: 10px 20px;
+        font-weight: bold;
     }
     button:hover{
         color: white;
-        background-color: cadetblue;
+        background-color: rgba(0, 180, 0, 100%);
     }
 }

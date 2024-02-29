@@ -9,7 +9,9 @@ screen and (min-height: 760px) and (orientation: landscape) {
         margin: 0 auto;
         width: 95%;
     }
-
+    body{
+        background-color:rgba(242,242,242, 50%);
+    }
     .one{
         display: flex;
         flex-direction: row;
@@ -18,7 +20,6 @@ screen and (min-height: 760px) and (orientation: landscape) {
         border-bottom: 2px solid silver;
         position: relative;
         justify-content: center;
-
     }
     .one img {
         position: relative;
@@ -103,13 +104,13 @@ screen and (min-height: 760px) and (orientation: landscape) {
     }
     .two a{
         display: block;
-    /*    position: relative;*/
-        text-align: center;
+        /*position: relative;*/
+        /*text-align: center;*/
         text-decoration: none;
         font-size: 1.1rem;
         border-radius: 20px;
         padding: 10px 20px;
-        color: gray;
+        color: rgb(120,120,120);
         font-weight: bold;
         background-color: lightgray;
         border: 0;
@@ -117,8 +118,21 @@ screen and (min-height: 760px) and (orientation: landscape) {
     }
     .two a:hover{
         color: white;
-        background-color: cadetblue;
+        background-color: rgba(0, 180, 0, 100%);
     }
+    /*아이콘 넣기*/
+    .two a::before{
+        content:"";
+        background-image: url("../img/pay.png");
+        background-size:30px 25px;
+        width:30px;
+        height:25px;
+        margin-right: 10px;
+        display:inline-block;
+        position: relative;
+        top: 3px;
+    }
+
     #image{
         position: relative;
         justify-content: center;
@@ -237,7 +251,7 @@ screen and (max-height: 479px) and (orientation: landscape) {
         font-size: 1.1rem;
         border-radius: 20px;
         padding: 10px 20px;
-        color: gray;
+        color: rgb(120,120,120);
         font-weight: bold;
         background-color: lightgray;
         border: 0;
@@ -245,7 +259,18 @@ screen and (max-height: 479px) and (orientation: landscape) {
     }
     .two a:hover{
         color: white;
-        background-color: cadetblue;
+        background-color: rgba(0, 180, 0, 100%);
+    }
+    .two a::before{
+        content:"";
+        background-image: url("../img/pay.png");
+        background-size:30px 25px;
+        width:30px;
+        height:25px;
+        margin-right: 10px;
+        display:inline-block;
+        position: relative;
+        top: 3px;
     }
     #image{
         width: 100vw;
