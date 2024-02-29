@@ -7,7 +7,7 @@ and (orientation: landscape) {
     #nav_top, .contents_box {
         margin-top: 1vh;
         display: flex; flex-direction: row; flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-content: center;
     }
 
@@ -55,6 +55,8 @@ and (orientation: landscape) {
         margin: 0;
         padding : 2vh 15vw;
         background-color: rgba(242,242,242, 50%);
+        position: relative;
+        z-index: 10;
     }
 
     .contents li:nth-child(1) {
@@ -80,7 +82,7 @@ and (orientation: landscape) {
 
     .service_box ul li  {
         display: inline;
-        padding : 0vh 3vw;
+        padding : 0vh 1vw;
     }
 
     a {text-decoration: none;}
@@ -109,7 +111,6 @@ and (orientation: landscape) {
     }
     #user ul {
         display: inline-block;
-        list-style: none;
         margin : 0; padding: 0;
         position: absolute; right: 14vw; top: 2vh;
     }
@@ -132,10 +133,10 @@ and (orientation: landscape) {
     .m_nav1 {
         width: 40vw; height: 65vh;
         position: absolute; right: 0vw; top: 7vh;
-        background-color: rgba(242,242,242, 50%);
+        background-color: rgba(242,242,242, 80%);
+        z-index: 20;
     }
     .m_nav1 ul {
-        list-style: none;
         margin : 0; padding: 0;
         position: absolute; right: 14vw; top: 3vh;
     }
@@ -166,10 +167,11 @@ and (orientation: landscape) {
         text-align: center;
         border-bottom: 3px solid transparent;
         text-decoration: none;
+        position: relative;
+        z-index: 21;
     }
 
     .m_service_box ul {
-        list-style: none;
         margin : 0; padding: 0;
         position: absolute; right: 12.5vw; top: 53vh;
     }
@@ -177,8 +179,9 @@ and (orientation: landscape) {
     .hide ul li a { display: none;}
 
     .contents {
-        list-style: none;
         display: none;
     }
+
+    ul {list-style: none;}
 
 }
