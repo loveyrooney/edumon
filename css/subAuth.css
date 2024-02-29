@@ -208,13 +208,11 @@ and (orientation: landscape) {
         margin: 0 auto;
         width: 90%;
     }
-
+    section img{
+        width: 100%;
+    }
     body{
         background-color:  rgba(242,242,242, 50%);;
-    }
-    .Authmain{
-        position: relative;
-        left: 12vw;
     }
     ul li{
         list-style: none;
@@ -237,23 +235,24 @@ and (orientation: landscape) {
         padding: 4px;
     }
     .tel input{
-        width: 70px;
+        width: 50px;
     }
     .btn1 button{
-        padding: 25px;
+        padding: 20px;
         border-radius: 15px;
         border: 1px solid  rgb(120,120,120);
         background-color: lightgrey;
         position: relative;
-        left: 560px;
+        left: 410px;
         bottom: 70px;
 
         font-weight: bolder;
     }
     .tel button{
-        width: 7vw;
+        width: 12vw;
         font-size: 10px;
-        margin-right: 2px;
+        margin-right: 3px;
+        padding: 2px 0px;
         background-color: lightgrey;
         border:1px solid  rgb(120,120,120);
     }
@@ -266,6 +265,7 @@ and (orientation: landscape) {
         position: relative;
         left: 30px;
         padding: 7px;
+        /*font-size: 12px;*/
     }
     .check{
         color: #ff0000;
@@ -275,6 +275,7 @@ and (orientation: landscape) {
     }
     #agree2{
         margin-right:10px;
+        /*font-size: 10px;*/
     }
     .btn2{
         padding: 15px 40px;
@@ -284,8 +285,8 @@ and (orientation: landscape) {
         border-radius: 20px;
         background-color: lightgrey;
         border:1px solid  rgb(120,120,120);
-        left: 240px;
-        bottom: 30px;
+        left: 160px;
+        bottom: -20px;
     }
     button:hover{
         background-color: darkgray;
