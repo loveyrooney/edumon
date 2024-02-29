@@ -87,7 +87,6 @@ and (orientation: landscape) {
 }
 
 @media screen and (max-width: 767px), screen and (max-height: 479px) and (orientation: landscape) {
-    d-none { display: none;}
 
     /* nav_top */
     * {
@@ -177,5 +176,9 @@ and (orientation: landscape) {
 
     .hide ul li a { display: none;}
 
-    .contents li a { display: none;}
+    .contents {
+        list-style: none;
+        display: none;
+    }
+
 }
