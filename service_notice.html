@@ -13,20 +13,20 @@
 
         <div class="page-wrap faq">
             <div class="tab_menu">
-              <ul class="list">
-                  <li class="is_on">
+              <ul class="list" role="tablist">
+                  <li class="is_on" tabindex="1" aria-controls="tabpanel-1">
                       <a href="#tab1" class="btn">공지사항</a>
                   </li>
-                  <li class="is_on">
+                  <li class="is_on" tabindex="2" aria-controls="tabpanel-2">
                       <a href="#tab2" class="btn">자주 묻는 질문</a>
                   </li>
-                  <li class="is_on">
+                  <li class="is_on" tabindex="3" aria-controls="tabpanel-3">
                       <a href="#tab3" class="btn">1:1문의</a>
                   </li>
 
               </ul>
 
-          <div class="cont_area1">
+          <div id="tabpanel-1" class="tabpanel cont_area1" role="tabpanel" aria-labelledby="tabpanel-1">
               <!-- 공지사항 페이지-->
               <div class="content">
                   <div class="head">
@@ -39,7 +39,7 @@
                   </div>
 
               </div>
-             <div class="cont">
+             <div class="cont" >
                  <ul class="notice_list">
                      <li class="notice_on">
                          <a href="#tabnotice1" class="btn1">전체</a>
@@ -51,37 +51,37 @@
                          <a href="#tabnotice3" class="btn1">배송</a>
                      </li>
                      <li class="notice_on">
-                         <a href="#tabnotice4" class="btn1">전체</a>
+                         <a href="#tabnotice4" class="btn1">학습자료실</a>
                      </li>
                  </ul>
                <div id="tabnotice1">
                    <table>
                        <thead>
                        <tr>
-                           <th>번호</th>
-                           <th>구분</th>
-                           <th>제목</th>
+                           <th class="th1">번호</th>
+                           <th class="th2">구분</th>
+                           <th class="th3">제목</th>
                        </tr>
                        </thead>
                        <tbody>
                        <tr>
-                           <td>1415</td>
-                           <td>공지 및 안내</td>
-                           <td>네임스티커(구독인증 사은품)제공 종료 안내</td>
+                           <td class="th1">1415</td>
+                           <td class="th2">공지 및 안내</td>
+                           <td class="th3">네임스티커(구독인증 사은품)제공 종료 안내</td>
                        </tr>
                        <tr>
-                           <td>1414</td>
-                           <td>당첨자발표</td>
-                           <td>[당첨자 안내]2024년 월간우등생하습 겨울방학호 프로모션 추첨</td>
+                           <td class="th1">1414</td>
+                           <td class="th2">당첨자발표</td>
+                           <td class="th3">[당첨자 안내]2024년 월간우등생하습 겨울방학호 프로모션 추첨</td>
                        </tr>
                        <tr>
-                           <td>1413</td>
-                           <td>공지 및 안내</td>
+                           <td class="th1">1413</td>
+                           <td class="th2">공지 및 안내</td>
                            <td>설 연휴 간 배송/ 고객센터 운영 안내</td>
                        </tr>
                        <tr>
-                           <td>1412</td>
-                           <td>당첨자발표</td>
+                           <td class="th1">1412</td>
+                           <td class="th2">당첨자발표</td>
                            <td>[당첨자 안내]에듀몬 2024 새해 맞이 소원 이벤트 - 구독인증 이벤트 </td>
                        </tr>
 
@@ -106,27 +106,28 @@
 
 
 
+          </div>
+
           </div>//cont_area1
 
 
 
 
-
-           <div class="cont_area2">
+           <div id="tabpanel-2" class="tabpanel cont_area2" role="tabpanel" aria-labelledby="tabpanel-2">
                <!--자주 묻는 질문 -->
                <div class="content2">
                    <div class="head2">
                        <div class="tit2">자주 묻는 질문</div>
                    </div>
                    <div class="search-wrap">
-                       <div class="search-box">
+                       <div class="search-box2">
                            <input type="text" id="searchWord2" name="searchWord2" class="txt" placeholder="검색어를 입력하세요">
                            <button class="btn-search2">검색</button>
                            <p>찾으시는 질문이 없다면 1:1 문의를 이용해 주세요.</p>
                        </div>
                    </div>
 
-               <div id="tab2" class="cont2" style="display: block;">
+               <div class="cont2">
                  <ul class="FAQ_list">
                      <li class="FAQ_on">
                          <a href="#tabFAQ1" class="btn2">전체</a>
@@ -155,31 +156,31 @@
                        <table>
                            <thead>
                            <tr>
-                               <th>번호</th>
-                               <th>구분</th>
-                               <th>제목</th>
+                               <th class="th1">번호</th>
+                               <th class="th2">구분</th>
+                               <th class="th3">제목</th>
                            </tr>
                            </thead>
                            <tbody>
                            <tr>
-                               <td>49</td>
-                               <td>홈페이지 이용</td>
-                               <td>토스(구 데이콤) 결제 오류 해결방법</td>
+                               <td class="th1">49</td>
+                               <td class="th2">홈페이지 이용</td>
+                               <td class="th3">토스(구 데이콤) 결제 오류 해결방법</td>
                            </tr>
                            <tr>
-                               <td>48</td>
-                               <td>홈페이지 이용</td>
-                               <td>스타플레이어를 설치해도 화면이 안나와요</td>
+                               <td class="th1">48</td>
+                               <td class="th2">홈페이지 이용</td>
+                               <td class="th3">스타플레이어를 설치해도 화면이 안나와요</td>
                            </tr>
                            <tr>
-                               <td>47</td>
-                               <td>홈페이지 이용</td>
-                               <td>동영상 수강을 위한 스타플레이어 StarPlayer(ActiveX)설치방법</td>
+                               <td class="th1">47</td>
+                               <td class="th2">홈페이지 이용</td>
+                               <td class="th3">동영상 수강을 위한 스타플레이어 StarPlayer(ActiveX)설치방법</td>
                            </tr>
                            <tr>
-                               <td>46</td>
-                               <td>홈페이지 이용</td>
-                               <td>문제은행 문제지 화면이 이상해요</td>
+                               <td class="th1">46</td>
+                               <td class="th2">홈페이지 이용</td>
+                               <td class="th3">문제은행 문제지 화면이 이상해요</td>
                            </tr>
 
                            </tbody>
@@ -202,17 +203,19 @@
 
            </div>//cont_area2
 
-         <div class="cont_area3">
+
+
+         <div id="tabpanel-3" class="tabpanel cont_area3" role="tabpanel" aria-labelledby="tabpanel-3">
              <!-- 1:1 문의 -->
              <div class="content3">
                  <div class="head3">
                      <div class="tit3">1:1 문의</div>
                  </div>
 
-                 <div id="tab3" class="cont3" style="display: block;">
+                 <div id="tab3" class="cont3">
                      <ul class="Inquiry_list">
-                         <li class="tab selected"> <a href="#tabInquiry1" class="btn3">1:1 문의</a></li>
-                         <li class="tab"><a href="#tabInquiry2" class="btn3">나의 문의 내역</a></li>
+                         <li class="tab_selected"> <a href="#tabInquiry1" class="btn3">1:1 문의</a></li>
+                         <li class="tab_selected"><a href="#tabInquiry2" class="btn3">나의 문의 내역</a></li>
                      </ul>
 
                      <div id="tabInquiry1">
@@ -254,12 +257,14 @@
 
                              </div>
                              <div class="title">
+                                 <div class="alertMsg" id="alertMsg_title">제목을 입력하여 주세요.
                                  <input type="text" class="txt" placeholder="제목을 입력하세요." name="Bbs.Title" id="title" onblur="goCheck('title'); return false;">
-                                 <div class="alertMsg" id="alertMsg_title">제목을 입력하여 주세요.</div>
+                                 </div>
                              </div>
-                             <div class="cont">
+                             <div class="cont4">
+                                 <div class="alertMsg" id="alertMsg_content">내용을 입력하여 주세요.
                                  <textarea rows="16" class="txt" placeholder="내용을 입력하세요." name="Bbs.Contents" id="content" onblur="goCheck('content'); return false;"></textarea>
-                                 <div class="alertMsg" id="alertMsg_content">내용을 입력하여 주세요.</div>
+                                 </div>
                              </div>
 
                          </div>
