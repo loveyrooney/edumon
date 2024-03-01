@@ -5,6 +5,9 @@ and (orientation: landscape){
         margin: 0;
         padding: 0;
     }
+    body{
+        background-color: rgba(242,242,242,50%);
+    }
     #wrap{
         width: 90%;
         margin: 0 auto;
@@ -49,7 +52,9 @@ and (orientation: landscape){
         display: flex;
         padding: 2vh 1.5vw;
     }
-
+    .cart_table_cell img{
+        width: 14vw;
+    }
     /* 총 결제 금액 */
     #tot_form{
         margin: 7vh auto;
@@ -121,4 +126,5 @@ and (orientation: landscape){
         margin: 1vh 0;
     }
 }
+
 
