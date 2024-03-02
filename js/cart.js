@@ -9,7 +9,7 @@ for(let i=0; i < acc.length; i++) {
         if (content.style.maxHeight) {
             content.style.maxHeight = '';
         } else {
-            content.style.maxHeight = "30vh";
+            content.style.maxHeight = "300px";
         }
 
     });
@@ -47,8 +47,13 @@ for(let i=0; i < acc.length; i++) {
 
  /* 쇼핑 계속하기 */
 document.getElementById("shopping").onclick=function (){
-    location.replace('product.html')
+    location.replace('product.html');
 }
+
+/* 전체 삭제 */
+document.getElementById("all_del").addEventListener('click',function (){
+    confirm('모든 상품을 삭제하시겠습니까?');
+});
 
  /* 선택 삭제 */
 document.getElementById("del").addEventListener('click',function (){
