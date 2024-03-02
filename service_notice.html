@@ -6,302 +6,320 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script defer src="js/service_notice.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=2.0">
     <link rel="stylesheet" href="css/service_notice.css">
 </head>
 
 <body>
 
-        <div class="page-wrap faq">
-            <div class="tab_menu">
-              <ul class="list" role="tablist">
-                  <li class="is_on" tabindex="1" aria-controls="tabpanel-1">
-                      <a href="#tab1" class="btn">공지사항</a>
-                  </li>
-                  <li class="is_on" tabindex="2" aria-controls="tabpanel-2">
-                      <a href="#tab2" class="btn">자주 묻는 질문</a>
-                  </li>
-                  <li class="is_on" tabindex="3" aria-controls="tabpanel-3">
-                      <a href="#tab3" class="btn">1:1문의</a>
-                  </li>
-
-              </ul>
-
-          <div id="tabpanel-1" class="tabpanel cont_area1" role="tabpanel" aria-labelledby="tabpanel-1">
-              <!-- 공지사항 페이지-->
-              <div class="content">
-                  <div class="head">
-                      <div class="tit">공지사항</div>
-                  </div>
-              <div class="search-wrap">
-                  <div class="search-box">
-                      <input type="text" id="searchWord" name="searchWord" class="txt" placeholder="검색어를 입력하세요">
-                      <button class="btn-search">검색</button>
-                  </div>
-
-              </div>
-             <div class="cont" >
-                 <ul class="notice_list">
-                     <li class="notice_on">
-                         <a href="#tabnotice1" class="btn1">전체</a>
-                     </li>
-                     <li class="notice_on">
-                         <a href="#tabnotice2" class="btn1">공지 및 안내</a>
-                     </li>
-                     <li class="notice_on">
-                         <a href="#tabnotice3" class="btn1">배송</a>
-                     </li>
-                     <li class="notice_on">
-                         <a href="#tabnotice4" class="btn1">학습자료실</a>
-                     </li>
-                 </ul>
-               <div id="tabnotice1">
-                   <table>
-                       <thead>
-                       <tr>
-                           <th class="th1">번호</th>
-                           <th class="th2">구분</th>
-                           <th class="th3">제목</th>
-                       </tr>
-                       </thead>
-                       <tbody>
-                       <tr>
-                           <td class="th1">1415</td>
-                           <td class="th2">공지 및 안내</td>
-                           <td class="th3">네임스티커(구독인증 사은품)제공 종료 안내</td>
-                       </tr>
-                       <tr>
-                           <td class="th1">1414</td>
-                           <td class="th2">당첨자발표</td>
-                           <td class="th3">[당첨자 안내]2024년 월간우등생하습 겨울방학호 프로모션 추첨</td>
-                       </tr>
-                       <tr>
-                           <td class="th1">1413</td>
-                           <td class="th2">공지 및 안내</td>
-                           <td>설 연휴 간 배송/ 고객센터 운영 안내</td>
-                       </tr>
-                       <tr>
-                           <td class="th1">1412</td>
-                           <td class="th2">당첨자발표</td>
-                           <td>[당첨자 안내]에듀몬 2024 새해 맞이 소원 이벤트 - 구독인증 이벤트 </td>
-                       </tr>
-
-                       </tbody>
-
-                   </table>
-
-                   <div class="page-btn">
-                       <span class="num active">1</span>
-                       <span class="num">2</span>
-                       <span class="num">3</span>
-                       <span class="num">3</span>
-                       <span class="num">4</span>
-                       <span class="num">5</span>
-                   </div>
-
-               </div>//tab1
-
-
-             </div>//tabnotice1
-
-
-
-
-          </div>
-
-          </div>//cont_area1
-
-
-
+<div id="wrap">
+    <div id="top" class="tab_menu">
+        <ul class="list" role="tablist">
+            <li class="is_on" tabindex="1" aria-controls="tabpanel-1">
+                <a href="#tab1" class="btn">공지사항</a>
+            </li>
+            <li class="is_on" tabindex="2" aria-controls="tabpanel-2">
+                <a href="#tab2" class="btn">자주 묻는 질문</a>
+            </li>
+            <li class="is_on" tabindex="3" aria-controls="tabpanel-3">
+                <a href="#tab3" class="btn">1:1문의</a>
+            </li>
+
+        </ul>
+
+        <div id="tabpanel-1" class="tabpanel cont_area1" role="tabpanel" aria-labelledby="tabpanel-1">
+            <!-- 공지사항 페이지-->
+            <div class="content">
+                <div class="head">
+                    <div class="tit">공지사항</div>
+                </div>
+                <div class="search-wrap">
+                    <div class="search-box">
+                        <input type="text" id="searchWord" name="searchWord" class="txt" placeholder="검색어를 입력하세요">
+                        <button class="btn-search">검색</button>
+                    </div>
+
+                </div>
+                <div class="cont" >
+                    <ul class="notice_list">
+                        <li class="notice_on">
+                            <a href="#tabnotice1" class="btn1">전체</a>
+                        </li>
+                        <li class="notice_on">
+                            <a href="#tabnotice2" class="btn1">공지 및 안내</a>
+                        </li>
+                        <li class="notice_on">
+                            <a href="#tabnotice3" class="btn1">배송</a>
+                        </li>
+                        <li class="notice_on">
+                            <a href="#tabnotice4" class="btn1">학습자료실</a>
+                        </li>
+                    </ul>
+                    <div id="tabnotice1">
+                        <table>
+                            <thead>
+                            <tr>
+                                <th class="th1">번호</th>
+                                <th class="th2">구분</th>
+                                <th class="th3">제목</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="th1">1415</td>
+                                <td class="th2">공지 및 안내</td>
+                                <td class="th3">네임스티커(구독인증 사은품)제공 종료 안내</td>
+                            </tr>
+                            <tr>
+                                <td class="th1">1414</td>
+                                <td class="th2">당첨자발표</td>
+                                <td class="th3">[당첨자 안내]2024년 월간우등생하습 겨울방학호 프로모션 추첨</td>
+                            </tr>
+                            <tr>
+                                <td class="th1">1413</td>
+                                <td class="th2">공지 및 안내</td>
+                                <td class="th3">설 연휴 간 배송/ 고객센터 운영 안내</td>
+                            </tr>
+                            <tr>
+                                <td class="th1">1412</td>
+                                <td class="th2">당첨자발표</td>
+                                <td class="th3">[당첨자 안내]에듀몬 2024 새해 맞이 소원 이벤트 - 구독인증 이벤트 </td>
+                            </tr>
+
+                            </tbody>
+
+                        </table>
+
+                        <div class="page-btn">
+                            <span class="num active">1</span>
+                            <span class="num">2</span>
+                            <span class="num">3</span>
+                            <span class="num">3</span>
+                            <span class="num">4</span>
+                            <span class="num">5</span>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+
 
-           <div id="tabpanel-2" class="tabpanel cont_area2" role="tabpanel" aria-labelledby="tabpanel-2">
-               <!--자주 묻는 질문 -->
-               <div class="content2">
-                   <div class="head2">
-                       <div class="tit2">자주 묻는 질문</div>
-                   </div>
-                   <div class="search-wrap">
-                       <div class="search-box2">
-                           <input type="text" id="searchWord2" name="searchWord2" class="txt" placeholder="검색어를 입력하세요">
-                           <button class="btn-search2">검색</button>
-                           <p>찾으시는 질문이 없다면 1:1 문의를 이용해 주세요.</p>
-                       </div>
-                   </div>
-
-               <div class="cont2">
-                 <ul class="FAQ_list">
-                     <li class="FAQ_on">
-                         <a href="#tabFAQ1" class="btn2">전체</a>
-                     </li>
-                     <li class="FAQ_on">
-                         <a href="#tabFAQ2" class="btn2">교재내용</a>
-                     </li>
-                     <li class="FAQ_on">
-                         <a href="#tabFAQ3" class="btn2">구입 및 정기구독</a>
-                     </li>
-                     <li class="FAQ_on">
-                         <a href="#tabFAQ4" class="btn2">가입 및 인증</a>
-                     </li>
-                     <li class="FAQ_on">
-                         <a href="#tabFAQ5" class="btn2">홈페이지 이용</a>
-                     </li>
-                     <li class="FAQ_on">
-                         <a href="#tabFAQ6" class="btn2">교재배송</a>
-                     </li>
-                     <li class="FAQ_on">
-                         <a href="#tabFAQ7" class="btn2">해지 및 기타</a>
-                     </li>
-                 </ul>
-
-                   <div id="tabFAQ1">
-                       <table>
-                           <thead>
-                           <tr>
-                               <th class="th1">번호</th>
-                               <th class="th2">구분</th>
-                               <th class="th3">제목</th>
-                           </tr>
-                           </thead>
-                           <tbody>
-                           <tr>
-                               <td class="th1">49</td>
-                               <td class="th2">홈페이지 이용</td>
-                               <td class="th3">토스(구 데이콤) 결제 오류 해결방법</td>
-                           </tr>
-                           <tr>
-                               <td class="th1">48</td>
-                               <td class="th2">홈페이지 이용</td>
-                               <td class="th3">스타플레이어를 설치해도 화면이 안나와요</td>
-                           </tr>
-                           <tr>
-                               <td class="th1">47</td>
-                               <td class="th2">홈페이지 이용</td>
-                               <td class="th3">동영상 수강을 위한 스타플레이어 StarPlayer(ActiveX)설치방법</td>
-                           </tr>
-                           <tr>
-                               <td class="th1">46</td>
-                               <td class="th2">홈페이지 이용</td>
-                               <td class="th3">문제은행 문제지 화면이 이상해요</td>
-                           </tr>
+        <div id="tabpanel-2" class="tabpanel cont_area2" role="tabpanel" aria-labelledby="tabpanel-2">
+            <!--자주 묻는 질문 -->
+            <div class="content2">
+                <div class="head2">
+                    <div class="tit">자주 묻는 질문</div>
+                </div>
+                <div class="search-wrap">
+                    <div class="search-box">
+                        <input type="text" id="searchWord2" name="searchWord" class="txt" placeholder="검색어를 입력하세요">
+                        <button class="btn-search2">검색</button>
+                        <p>찾으시는 질문이 없다면 1:1 문의를 이용해 주세요.</p>
+                    </div>
+                </div>
+
+                <div class="cont2">
+                    <ul class="FAQ_list">
+                        <li class="FAQ_on">
+                            <a href="#tabFAQ1" class="btn2">전체</a>
+                        </li>
+                        <li class="FAQ_on">
+                            <a href="#tabFAQ2" class="btn2">교재내용</a>
+                        </li>
+                        <li class="FAQ_on">
+                            <a href="#tabFAQ3" class="btn2">구입 및 정기구독</a>
+                        </li>
+                        <li class="FAQ_on">
+                            <a href="#tabFAQ4" class="btn2">가입 및 인증</a>
+                        </li>
+                        <li class="FAQ_on">
+                            <a href="#tabFAQ5" class="btn2">홈페이지 이용</a>
+                        </li>
+                        <li class="FAQ_on">
+                            <a href="#tabFAQ6" class="btn2">교재배송</a>
+                        </li>
+                        <li class="FAQ_on">
+                            <a href="#tabFAQ7" class="btn2">해지 및 기타</a>
+                        </li>
+                    </ul>
+
+                    <div id="tabFAQ1">
+                        <table>
+                            <thead>
+                            <tr>
+                                <th class="th1">번호</th>
+                                <th class="th2">구분</th>
+                                <th class="th3">제목</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="th1">49</td>
+                                <td class="th2">홈페이지 이용</td>
+                                <td class="th3">토스(구 데이콤) 결제 오류 해결방법</td>
+                            </tr>
+                            <tr>
+                                <td class="th1">48</td>
+                                <td class="th2">홈페이지 이용</td>
+                                <td class="th3">스타플레이어를 설치해도 화면이 안나와요</td>
+                            </tr>
+                            <tr>
+                                <td class="th1">47</td>
+                                <td class="th2">홈페이지 이용</td>
+                                <td class="th3">동영상 수강을 위한 스타플레이어 StarPlayer(ActiveX)설치방법</td>
+                            </tr>
+                            <tr>
+                                <td class="th1">46</td>
+                                <td class="th2">홈페이지 이용</td>
+                                <td class="th3">문제은행 문제지 화면이 이상해요</td>
+                            </tr>
+
+                            </tbody>
+
+                        </table>
+
+                        <div class="page-btn">
+                            <span class="num active">1</span>
+                            <span class="num">2</span>
+                            <span class="num">3</span>
+                            <span class="num">3</span>
+                            <span class="num">4</span>
+                            <span class="num">5</span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
 
-                           </tbody>
 
-                       </table>
+        <div id="tabpanel-3" class="tabpanel cont_area3" role="tabpanel" aria-labelledby="tabpanel-3">
+            <!-- 1:1 문의 -->
+            <div class="content3">
+                <div class="head3">
+                    <div class="tit">1:1 문의</div>
+                </div>
 
-                       <div class="page-btn">
-                           <span class="num active">1</span>
-                           <span class="num">2</span>
-                           <span class="num">3</span>
-                           <span class="num">3</span>
-                           <span class="num">4</span>
-                           <span class="num">5</span>
-                       </div>
+                <div id="tab3" class="cont3">
+                    <ul class="Inquiry_list">
+                        <li class="tab_selected">
+                            <a href="#tabInquiry1" class="btn3">1:1 문의</a>
+                        </li>
+                        <li class="tab_selected">
+                            <a href="#tabInquiry2" class="btn3">나의 문의 내역</a>
+                        </li>
+                    </ul>
 
-                   </div>// tabFAQ1
+                    <div id="tabInquiry1">
+                        <div class="tit3">문의 정보</div>
+                        <div class="inner">
+                            <div class="select-wrap">
+                                <select class="select" id="prefaceCd" name="edu.PrefaceCd">
+                                    <option value="">선택하세요</option>
 
-                   </div>//tab2
-                   </div>//contect2
+                                    <option value="01">상품명</option>
 
-           </div>//cont_area2
 
+                                    <option value="02">결합상품</option>
 
 
-         <div id="tabpanel-3" class="tabpanel cont_area3" role="tabpanel" aria-labelledby="tabpanel-3">
-             <!-- 1:1 문의 -->
-             <div class="content3">
-                 <div class="head3">
-                     <div class="tit3">1:1 문의</div>
-                 </div>
+                                    <option value="03">단독상품</option>
 
-                 <div id="tab3" class="cont3">
-                     <ul class="Inquiry_list">
-                         <li class="tab_selected"> <a href="#tabInquiry1" class="btn3">1:1 문의</a></li>
-                         <li class="tab_selected"><a href="#tabInquiry2" class="btn3">나의 문의 내역</a></li>
-                     </ul>
+                                    <option value="04">전집도서</option>
 
-                     <div id="tabInquiry1">
-                         <div class="tit">문의 정보</div>
-                         <div class="inner">
-                             <div class="select-wrap">
-                                 <select class="select" id="prefaceCd" name="edu.PrefaceCd">
-                                     <option value="">선택하세요</option>
+                                    <option value="05">기타</option>
 
-                                     <option value="01">상품명</option>
+                                </select>
+                                <select class="select" id="preface2Cd" name="edu.Preface2Cd">
+                                    <option value="">선택하세요</option>
 
+                                    <option value="01">교재내용</option>
 
-                                     <option value="02">결합상품</option>
 
+                                    <option value="02">가입 및 인증</option>
 
-                                     <option value="03">단독상품</option>
 
-                                     <option value="04">전집도서</option>
+                                    <option value="03">홈페이지 이용</option>
 
-                                     <option value="05">기타</option>
+                                    <option value="04">교재배송</option>
 
-                                 </select>
-                                 <select class="select" id="preface2Cd" name="edu.Preface2Cd">
-                                     <option value="">선택하세요</option>
+                                    <option value="05">해지 및 기타</option>
 
-                                     <option value="01">교재내용</option>
+                                </select>
 
+                            </div>
+                            <div class="title">
+                                <div class="alertMsg" id="alertMsg_title">제목
+                                    <input type="text" class="txt" placeholder="제목을 입력하세요." name="Bbs.Title" id="title"onblur="goCheck('content'); return false;">
+                                </div>
+                            </div>
+                            <div class="cont4">
+                                <div class="alertMsg1" id="alertMsg_content"> 내용
+                                    <textarea rows="16" class="txt2" placeholder="내용을 입력하세요." name="Bbs.Contents" id="content" onblur="goCheck('content'); return false;"></textarea>
+                                </div>
+                            </div>
+                            <div class="title5">
+                                <div class="alertMsg2" id="add_title">첨부
+                                    <button class="add">파일검색</button>
+                                    <input type="text" class="txt" placeholder="선택한 파일이 없습니다." name="Bbs.Title" id="add"onblur="goCheck('content'); return false;">
+                                </div>
+                            </div>
+                            <div class="button4">
+                                <div class="button4" id="button4">
+                                    <input type="submit" value="확인">
+                                    <input type="reset" value="취소">
+                                </div>
+                            </div>
 
-                                     <option value="02">가입 및 인증</option>
 
+                        </div>
+                    </div>
 
-                                     <option value="03">홈페이지 이용</option>
 
-                                     <option value="04">교재배송</option>
 
-                                     <option value="05">해지 및 기타</option>
+                </div>
 
-                                 </select>
 
-                             </div>
-                             <div class="title">
-                                 <div class="alertMsg" id="alertMsg_title">제목을 입력하여 주세요.
-                                 <input type="text" class="txt" placeholder="제목을 입력하세요." name="Bbs.Title" id="title" onblur="goCheck('title'); return false;">
-                                 </div>
-                             </div>
-                             <div class="cont4">
-                                 <div class="alertMsg" id="alertMsg_content">내용을 입력하여 주세요.
-                                 <textarea rows="16" class="txt" placeholder="내용을 입력하세요." name="Bbs.Contents" id="content" onblur="goCheck('content'); return false;"></textarea>
-                                 </div>
-                             </div>
 
-                         </div>
-                     </div>
 
 
+            </div>
 
-                 </div>
 
+        </div>
 
 
 
 
-             </div>//content3
 
 
-         </div>//cont_area3
 
+    </div>
 
 
 
 
 
 
-          </div>
 
 
 
+</div>
 
-
-
-
-
-
-    </div>///page-wrap faq
-
- </div>///content
+</div>
 
 
 
