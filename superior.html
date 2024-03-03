@@ -67,67 +67,67 @@
             </ul>
         </nav>
     </header>
-    <section class="top">
-        <h1>우등생 논술</h1>
-    </section>
-    <div class="tab">
-        <ul class="tablist" role="tablist">
-            <li class="tabItem"  tabindex="1" aria-controls="tabpanel-1">
-                <a href="#" role="tab">특장점</a>
-            </li>
-            <li class="tabItem" tabindex="2" aria-controls="tabpanel-2">
-                <a href="#" role="tab">구성</a>
-            </li>
-            <li class="tabItem" tabindex="3" aria-controls="tabpanel-3">
-                <a href="#" role="tab">자유롭게 말해요</a>
-            </li>
-        </ul>
-        <div  id="tabpanel-1" class="tabpanel" role="tabpanel"
-              aria-labelledby="tabpanel-1">
-            <h6>우등생논술 특장점</h6>
+    <section id="wrap2">
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'feature')">특장점</button>
+            <button class="tablinks" onclick="openCity(event, 'composition')">구성</button>
+            <button class="tablinks" onclick="openCity(event, 'freetalk')">자유롭게 말해요</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="feature" class="tabcontent">
+            <h3>우등생논술 특장점</h3>
+            <div class="free_bottom"></div>
             <img src="img/특장점1.jpg" alt="특장점1">
             <img src="img/특장점2.jpg" alt="특장점2">
             <img src="img/특장점3.jpg" alt="특장점3">
         </div>
-        <div id="tabpanel-2" class="tabpanel" role="tabpanel" aria-labelledby="tabpanel-2">
-            <h6>우등생논술 구성</h6>
+
+        <div id="composition" class="tabcontent">
+            <h3>우등생논술 구성</h3>
+            <div class="free_bottom"></div>
             <img src="img/우등생%20구성-1.jpg" alt="우등생구성1">
             <img src="img/우등생%20구성-2.jpg" alt="우등생구성2">
             <img src="img/우등생%20구성-3.jpg" alt="우등생구성3">
         </div>
-        <div id="tabpanel-3" class="tabpanel" role="tabpanel" aria-labelledby="tabpanel-3">
-            <h6>자유롭게 말해요</h6>
+        <div id="freetalk" class="tabcontent">
+            <h3>자유롭게 말해요</h3>
             <div class="free_bottom"></div>
-            <nav class="icon">
-                <ul>
-                    <li>
-                        <label for="btn1">
-                            <input type="radio" id="btn1" name="select1">
-                            <img src="img/icon1.ico" alt="아이콘1">
-                        </label>
-                    </li>
-                    <li>
-                        <label for="btn2">
-                            <input type="radio" id="btn2" name="select1">
-                            <img src="img/icon2.ico" alt="아이콘2">
-                        </label>
-                    </li>
-                    <li>
-                        <label for="btn3">
-                            <input type="radio" id="btn3" name="select1">
-                            <img src="img/icon3.ico" alt="아이콘3">
-                        </label>
-                    </li>
-                    <li>
-                        <label for="btn4">
-                            <input type="radio" id="btn4" name="select1">
-                            <img src="img/icon4.ico" alt="아이콘4">
-                        </label>
-                    </li>
-                </ul>
-            </nav>
-            <div class="submit">
-                <input type="text"><button type="button">확인</button>
+            <div class="select">
+                <nav class="select_icon">
+                    <ul>
+                        <li>
+                            <label for="btn1">
+                                <input type="radio" id="btn1" name="select1">
+                                <img src="img/icon1.ico" alt="아이콘1">
+                            </label>
+                        </li>
+                        </li>
+                        <li>
+                            <label for="btn2">
+                                <input type="radio" id="btn2" name="select1">
+                                <img src="img/icon2.ico" alt="아이콘2">
+                            </label>
+                        </li>
+                        <li>
+                            <label for="btn3">
+                                <input type="radio" id="btn3" name="select1">
+                                <img src="img/icon3.ico" alt="아이콘3">
+                            </label>
+                        </li>
+                        <li>
+                            <label for="btn4">
+                                <input type="radio" id="btn4" name="select1">
+                                <img src="img/icon4.ico" alt="아이콘4">
+                            </label>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="write">
+                <input type="text" id="write_text" name="write_text">
+                <button type="button">확인</button>
             </div>
             <div class="free_list">
                 <ul class="list">
@@ -252,19 +252,9 @@
                         </a>
                     </li>
                 </ul>
-                <div class="pagination">
-                    <a href="#">&laquo;</a>
-                    <a href="#">1</a>
-                    <a class="active" href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">5</a>
-                    <a href="#">6</a>
-                    <a href="#">&raquo;</a>
-                </div>
             </div>
         </div>
-    </div>
+    </section>
 </div>
 </body>
 </html>
