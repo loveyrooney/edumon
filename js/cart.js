@@ -15,8 +15,10 @@ for(let i=0; i < acc.length; i++) {
     });
 }
 
-/* 가격 계산 */
- let check_choice=document.querySelectorAll('.choice');
+/* 가격 계산_1 */
+/*
+let check_choice=document.querySelectorAll('.choice');
+ let tot_price;
 
  let fn=function(event) {
      let ch_check_div = event.target.parentElement.parentElement;
@@ -29,23 +31,60 @@ for(let i=0; i < acc.length; i++) {
       //console.log(su[0].value);
 
       let book_price=Number(price[0].value.replace(',',''));
-      let tot;
+
 
        su[0].onchange=function(e){
 
-           tot=Number(book_price) * Number(e.target.value);
+           tot_price=Number(book_price) * Number(e.target.value);
 
            document.getElementById("tot_price").value
-           = tot.toLocaleString();
+           = tot_price.toLocaleString();
        }
 
  }
  check_choice.forEach(item=>{
         item.onchange=fn;
  });
+ */
 
+/* 가격 계산_2 */
+let check_choice=document.querySelectorAll('.choice');
+let tot=[];
+let delivery=Number(document.getElementById("delivery").value.replace(',',''));
+let fn=function check_box(event){
 
- /* 쇼핑 계속하기 */
+    let ch_check_div = event.target.parentElement.parentElement;
+    let child_check_div= ch_check_div.children;
+
+    let price=child_check_div[3].querySelectorAll('.price');
+    let su=child_check_div[4].querySelectorAll('.num');
+
+    for(let i=0; i<check_choice.length; i++){
+        if(check_choice[i].checked===true){
+            su[0].onchange=function (e){
+                let tot_price=0
+                let pr=price[0].value.replace(',','');
+                tot[i]=Number(e.target.value)*Number(pr);
+                tot.forEach(item=>{
+                    tot_price+=item;
+                })
+                document.getElementById("tot_price").value=tot_price.toLocaleString();
+                if(tot_price>0){
+                    document.getElementById("delivery").value=0
+                    document.getElementById("result").value=tot_price.toLocaleString();
+                }else{
+                    document.getElementById("result").value=(tot_price+delivery).toLocaleString();
+                }
+
+            }
+        }
+    }
+}
+check_choice.forEach(item=>{
+    item.onchange=fn;
+});
+
+/* 쇼핑 계속하기 */
 document.getElementById("shopping").onclick=function (){
     location.replace('product.html');
 }
