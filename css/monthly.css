@@ -5,6 +5,9 @@ and (orientation: landscape){
         margin: 0;
         padding: 0;
     }
+    body{
+        background-color: rgba(242,242,242,50%);
+    }
     #wrap{
         width: 90%;
         margin: 0 auto;
@@ -46,6 +49,7 @@ and (orientation: landscape){
         display: inline-block;
         width: 10vw;
         font-weight: bolder;
+        margin-right: 1vw;
     }
     #grade{
         display: inline-block;
@@ -92,7 +96,7 @@ and (orientation: landscape){
         content: url("../img/telephone.png");
         padding: 0 1vw 0 0;
         position: relative;
-        top: 8px;
+        top: 6px;
     }
     #buy{
         margin-right: 10px;
@@ -119,6 +123,14 @@ and (orientation: landscape){
         position: relative;
         top: 8px;
     }
+    #tel:active, #tel:focus,
+    #buy:active, #buy:focus,
+    #add:active, #add:focus{
+        color: #2ACAAF;
+        background-color: white;
+        border: 2px solid #2ACAAF;
+        font-weight: bolder;
+    }
     #banner{
         display: flex;
         justify-content: center;
@@ -126,6 +138,7 @@ and (orientation: landscape){
     }
     #banner img{
         width: 76vw;
+        box-shadow: 0 2px 12px rgba(51,51,51,0.3);
     }
 
     .line{
@@ -169,12 +182,12 @@ and (orientation: landscape){
     #composition_img{
         display: flex;
         justify-content: center;
-        margin: 5vh 0;
+        margin: 20vh 0;
     }
     #composition_img img{
         width: 63vw;
+        box-shadow: 0 5px 12px rgba(51,51,51,0.5);
     }
-
     /* 하단 공지 */
     #bottom_notice{
         margin: 0 auto 10vh;
@@ -218,6 +231,9 @@ and (orientation: landscape){
     *{
         margin: 0;
         padding: 0;
+    }
+    body{
+        background-color: rgba(242,242,242,50%);
     }
     #wrap{
         width: 90%;
@@ -265,6 +281,12 @@ and (orientation: landscape){
         color: #E5414C;
         margin-left: 10px;
     }
+    #purchase_form li:last-child{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
     #grade{
         display: inline-block;
         width: 27vw;
@@ -274,46 +296,36 @@ and (orientation: landscape){
         width: 25vw;
     }
     #tel, #buy, #add{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
+        font-weight: bolder;
+        padding: 3px 10px;
+        margin: 0 3vw;
+        text-align: center;
+        color: rgb(51,51,51);
+        background-color: #2ACAAF;
     }
     #tel{
         text-decoration: none;
-        color: rgb(51,51,51);
-        font-weight: bold;
-        background-color: #2ACAAF;
         margin-right: 10px;
-        padding: 6px 12px;
+        padding: 7px 12px 5px;
         border-radius: 2vh;
-    }
-    #tel:before{
-        content: url("../img/telephone.png");
-        position: relative;
-        top: 8px;
     }
     #buy{
         margin-right: 10px;
     }
     #buy, #add{
-        background-color: #2ACAAF;
-        color: rgb(51,51,51);
-        font-weight: bold;
         border: none;
         border-radius: 2vh;
         cursor: pointer;
     }
-    #buy:before{
-        content: url("../img/credit.png");
-        padding: 0 1vw 0 0;
-        position: relative;
-        top: 8px;
+    #tel:active, #tel:focus,
+    #buy:active, #buy:focus,
+    #add:active, #add:focus{
+        color: #2ACAAF;
+        background-color: white;
+        border: 1px solid #2ACAAF;
+        font-weight: bolder;
     }
-    #add:before{
-        content: url("../img/shopping-cart.png");
-        padding: 0 1vw 0 0;
-        position: relative;
-        top: 8px;
-    }
-
     #banner{
         display: flex;
         justify-content: center;
@@ -321,6 +333,7 @@ and (orientation: landscape){
     }
     #banner img{
         width: 100vw;
+        box-shadow: 0 2px 12px rgba(51,51,51,0.3);
     }
     /* middle 시작 */
     #notice_list{
@@ -349,9 +362,11 @@ and (orientation: landscape){
     #composition_img{
         display: flex;
         justify-content: center;
+        margin: 10vh 0;
     }
     #composition_img img{
         width: 90vw;
+        box-shadow: 0 5px 12px rgba(51,51,51,0.5);
     }
 
     /* 하단 공지사항 */
