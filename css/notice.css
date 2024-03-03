@@ -23,6 +23,7 @@
     padding: 10px;
     position: relative;
     background-color: white;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
   }
   .cont_area1 {
     top: 10vh;
@@ -43,9 +44,9 @@
     position: relative;
     left: 15vw;
     top: 5vh;
-    color: rgba(50, 50, 50, 100%);
   }
   .btn {
+    color: rgba(50, 50, 50, 100%);
     text-align: center;
     font-size: large;
     font-weight: 800;
@@ -214,6 +215,7 @@
     padding: 10px;
     position: relative;
     background-color: white;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
   }
   .cont_area1 {
     top: 10vh;
@@ -234,9 +236,9 @@
     position: relative;
     left: 15vw;
     top: 5vh;
-    color: rgba(50, 50, 50, 100%);
   }
   .btn {
+    color: rgba(50, 50, 50, 100%);
     text-align: center;
     font-size: large;
     font-weight: 800;
