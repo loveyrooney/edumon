@@ -1,720 +1,381 @@
-@media screen and (min-width: 1024px) , screen and (min-height: 1024px) and
-(orientation: landscape){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    #wrap{
-        margin: 0 auto;
-        width: 90%;
-    }
-    body, ul, li{
-        list-style: none;
-    }
-
-
-
-    .is_on{
-        position: relative;
-        top: 70px;
-        left: 600px;
-        border-bottom: 1px solid silver;
-
-    }
-
-
-    .cont_area1{
-        background-color: #fff6d0;
-        width: 90vw;
-        height: 800px;
-        position: relative;
-        top: 100px;
-        left: 120px
-    }
-
-    .cont_area2{
-        background-color: #fff6d0;
-        width: 90vw;
-        height: 800px;
-        position: relative;
-        top: -720px;
-        left: 120px;
-    }
-
-    .cont_area3{
-        background-color: #fff6d0;
-        width: 90vw;
-        height: 800px;
-        position: relative;
-        top: -1542px;
-        left: 120px;
-
-    }
-
-    .tab_menu>.list>.is_on
-    {
-        display: inline-block;
-    }
-    .tab_menu>.list>.is_on>.btn{
-        display: inline-block;
-        font-size: 200px;
-        text-decoration: none;
-        color: inherit;
-        padding: 10px 10px 10px 10px;
-        margin:10px;
-
-    }
-
-    .tit{
-        font-size: 65px;
-        position: relative;
-        top: 50px;
-        left: 600px;
-        color: #555555;
-
-    }
-
-
-
-    .tab_menu>.list>.is_on:hover > .btn{
-        color: #1abb9b;
-        border-bottom: #1abb9b;
-    }
-    .btn-search{
-        font-size: 15px;
-        text-align: center;
-
-    }
-
-    .search-box{
-        position: relative;
-        top: 60px;
-        left: 250px;
-    }
-    #searchWord{
-        width: 500px;
-        height: 20px;
-        position: relative;
-        left: 200px;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        background-color: #fff6d0;
-        border-bottom: 3px solid #b8d229;
-    }
-    .btn-search{
-        width: 40px;
-        height: 40px;
-        position: relative;
-        top: -7px;
-        left: 200px;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        background-color: #fff6d0;
-        border-bottom: 3px solid #b8d229;
-
-    }
-    .notice_list{
-        position: relative;
-        top: 80px;
-        left: 250px;
-    }
-
-    .notice_on{
-        text-align:center;
-        position: relative;
-        top: 35px;
-        left: 175px;
-        bottom: 50px;
-    }
-
-
-    .btn1{
-        list-style: none;
-        text-align: center;
-        font-size: 20px;
-        color: black;
-        margin: 15px;
-        padding: 5px 15px;
-        text-decoration: none;
-
-    }
-
-
-    .cont > .notice_list> .notice_on:hover> .btn1{
-        color: white;
-        background-color: #1abb9b;
-        border-radius: 10px;
-
-    }
-
-
-
-
-    .cont>.notice_list>.notice_on{
-        display: inline-block;
-        text-align: center;
-    }
-
-    .cont> .notice_on> .btn1
-    {
-        display: inline-block;
-
-    }
-
-
-    #tabnotice1{
-
-        height: 100px;
-        padding: 10px 10px;
-        position: relative;
-        top: 150px;
-        left: 100px;
-    }
-    table{
-        width: 1000px;
-        border-bottom: 1px solid #555555;
-        border-top:1px solid #555555;
-        position: relative;
-        left: 130px;
-        background-color: white;
-    }
-    thead{
-        background-color: #d1d2d5;
-    }
-
-    .th1{
-        text-align: center;
-        width: 40px;
-        height: 30px;
-
-    }
-    .th2{
-
-        text-align: center;
-    }
-    .th3{
-        text-align: center;
-
-    }
-
-    th{
-
-        border-bottom: 1px solid #555555;
-    }
-    td{
-        width: 200px;
-        height: 50px;
-        border-bottom: 1px solid #555555;
-    }
-
-    .page-btn{
-        position: relative;
-        left: 500px;
-        bottom: -20px;
-    }
-
-    .tab_menu .list li.is_on .btn{
-        font-weight:bold;
-        font-size: 30px;
-        color:rgb(120,120,120);
-    }
-
-    ul{
-        list-style: none;
-    }
-
-    .is_on{
-        text-align: center;
-    }
-
-    .tab_menu > ul > li >a {
-        display: block;
-        color: rgb(120,120,120);
-    }
-
-    .tab_menu > ul > li:hover >a {
-        color: #1abb9b;
-        list-style: none;
-    }
-
-
-
-    .num{
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        font-size: 14px;
-        display: inline-block;
-        color: gray;
-        text-align: center;
-        line-height: 30px;
-        border: 1px solid gray;
-    }
-
-
-    .cont2 > .FAQ_list > .FAQ_on{
-        display: inline-block;
-    }
-
-    .cont3 > .Inquiry_list > .tab_selected{
-        display: inline-block;
-    }
-    .FAQ_on{
-        text-decoration: none;
-        position: relative;
-        bottom: -20px;
-    }
-    .tit2{
-        font-size: 50px;
-        position: relative;
-        top: 50px;
-        left: 370px;
-
-    }
-    .btn2{
-        list-style: none;
-        text-align: center;
-        font-size: 20px;
-        color: black;
-        margin: 15px;
-        padding: 5px 15px;
-        text-decoration: none;
-
-    }
-
-    .search-box2{
-        position: relative;
-        top: 60px;
-        left: 250px;
-
-
-    }
-    .btn-search2{
-        font-size: 15px;
-        background-color: #fff6d0;
-    }
-
-
-    #tabFAQ1{
-
-        height: 100px;
-        padding: 10px 10px;
-        position: relative;
-        top: 150px;
-        left: 100px;
-    }
-    .cont2> .FAQ_list> .FAQ_on:hover> .btn2{
-        color: white;
-        background-color: #1abb9b;
-        border-radius: 10px;
-
-    }
-
-
-    .FAQ_list{
-        position: relative;
-        top: 80px;
-        left: 175px;
-    }
-    #searchWord2{
-        width: 500px;
-        height: 20px;
-        position: relative;
-        left: 300px;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        background-color: #fff6d0;
-        border-bottom: 3px solid #b8d229;
-    }
-    .btn-search2{
-        width: 40px;
-        height: 40px;
-        position: relative;
-        top: -7px;
-        left: 295px;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        background-color: #fff6d0;
-        border-bottom: 3px solid #b8d229;
-
-    }
-    .search-box>p{
-        position: relative;
-        left: 380px;
-    }
-    .tab3>.Inquiry_list>.btn3{
-        display: inline-block;
-        position: relative;
-        top: 50px;
-    }
-
-    .btn3{
-        list-style: none;
-        text-align: center;
-        font-size: 20px;
-        color: black;
-        margin: 15px;
-        padding: 5px 15px;
-        text-decoration: none;
-
-    }
-    .cont3>.Inquiry_list>.tab_selected:hover>.btn3{
-        color: white;
-        background-color: #1abb9b;
-        border-radius: 10px;
-    }
-
-    .Inquiry_list{
-        position: relative;
-        top: 80px;
-        left: 550px;
-    }
-    .tit3{
-        position: relative;
-        top: 120px;
-        left: 400px;
-        font-size: 17px;
-
-    }
-    .select{
-        position: relative;
-        top: 95px;
-        left: 500px;
-    }
-    .title{
-        position: relative;
-        top: 120px;
-        left: 430px;
-    }
-
-    .txt{
-        width: 500px;
-        position: relative;
-        top: -1px;
-        left: 30px;
-    }
-    .cont4{
-        position: relative;
-        top: 150px;
-        left: 590px;
-    }
-    .alertMsg1{
-        position: relative;
-        top:-10px;
-        left: -150px;
-        width: 500px;
-    }
-    .txt2{
-        width: 550px;
-        height: 350px;
-        position: relative;
-        left: 60px;
-        top: -20px;
-
-    }
-    .add{
-        position: relative;
-        left: 36px;
-    }
-    .title5{
-        position: relative;
-        top: 130px;
-        left: 425px;
-    }
-    .visit {
-        position: relative;
-        z-index: 10;
-    }
-    .button4{
-        position: relative;
-        top: 80px;
-        left: 350px;
-    }
+@media screen and (min-width: 768px),
+  screen and (min-height: 760px) and (orientation: landscape) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #wrap {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  body ul li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .cont_area1,
+  .cont_area2,
+  .cont_area3 {
+    width: 85vw;
+    height: 70vh;
+    padding: 10px;
+    position: relative;
+    background-color: white;
+  }
+  .cont_area1 {
+    top: 10vh;
+  }
+  .cont_area2 {
+    top: -63vh;
+  }
+  .cont_area3 {
+    top: -137vh;
+  }
+
+  .tab_menu {
+    margin-top: 5vh;
+  }
+
+  .is_on {
+    display: inline-block;
+    position: relative;
+    left: 15vw;
+    top: 5vh;
+    color: rgba(50, 50, 50, 100%);
+  }
+  .btn {
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    padding: 20px;
+    border-bottom: 2px solid transparent;
+  }
+  .tab_menu > .list > .is_on:hover > .btn {
+    color: rgba(0, 180, 0, 100%);
+    border-bottom: 2px solid rgba(0, 180, 0, 100%);
+  }
+
+  .tit {
+    text-align: center;
+    margin: 2vh 0vw;
+    font-weight: 600;
+    color: rgba(50, 50, 50, 100%);
+  }
+  .search-box {
+    position: absolute;
+    left: 13vh;
+  }
+
+  .notice_on,
+  .FAQ_on {
+    display: inline-block;
+    position: relative;
+    top: 10vh;
+    left: 9vh;
+  }
+
+  .tab_selected {
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    left: 9vh;
+  }
+
+  .btn1,
+  .btn2,
+  .btn3 {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .notice_on:hover > .btn1,
+  .FAQ_on:hover > .btn2,
+  .tab_selected:hover > .btn3 {
+    color: white;
+    background-color: rgba(0, 180, 0, 100%);
+    border-radius: 10px;
+  }
+
+  .tabnotice1,
+  .tabFAQ1 {
+    position: relative;
+    top: 14vh;
+    left: 10vw;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 70vw;
+    height: 22vh;
+    border-bottom: 1px solid #555555;
+    border-top: 1px solid #555555;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    font-size: smaller;
+  }
+  thead {
+    background-color: rgba(242, 242, 242, 80%);
+  }
+
+  .th1 {
+    width: 5vh;
+    padding: 1.5vh;
+  }
+  .th2 {
+    width: 20vh;
+  }
+  .th3 {
+    width: auto;
+  }
+
+  th {
+    font-weight: 500;
+    border-bottom: 1px solid #555555;
+  }
+  td {
+    border-bottom: 1px solid #555555;
+  }
+
+  .num {
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    font-size: 10px;
+    display: inline-block;
+    color: #555555;
+    text-align: center;
+    line-height: 3vh;
+    border: 1px solid gray;
+  }
+
+  .page-btn {
+    position: relative;
+    padding: 0vh 25vw;
+    top: 15vh;
+  }
+
+  .visit {
+    position: relative;
+    z-index: 10;
+  }
+
+  .search-box > p {
+    font-size: 12px;
+    margin-bottom: 2vh;
+  }
+
+  .tabInquiry1 {
+    position: relative;
+    top: 9vh;
+    left: 10vw;
+  }
+  .tit3 {
+    display: inline-block;
+    width: 15vw;
+    height: 3vh;
+  }
+  textarea {
+    width: 50vw;
+    height: 20vh;
+  }
+  .button4 input {
+    position: relative;
+    left: 16vw;
+  }
 }
 
 @media screen and (max-width: 767px),
-screen and (max-height: 479px)
-and (orientation: landscape){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    #wrap{
-        margin: 0 auto;
-        width: 90%;
+  screen and (max-height: 479px) and (orientation: landscape) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #wrap {
+    margin: 0 auto;
+    width: 90%;
+  }
 
-    }
-    #top{
-        width: 80vw;
-        margin: 5vh auto;
-    }
+  body ul li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .cont_area1,
+  .cont_area2,
+  .cont_area3 {
+    width: 85vw;
+    height: 70vh;
+    padding: 10px;
+    position: relative;
+    background-color: white;
+  }
+  .cont_area1 {
+    top: 10vh;
+  }
+  .cont_area2 {
+    top: -63vh;
+  }
+  .cont_area3 {
+    top: -137vh;
+  }
 
-     body ul li{
-        list-style: none;
-    }
-     a{
-         text-decoration: none;
-     }
-    .cont_area1{
-        background-color: #fff6d0;
-        width: 85vw;
-        height: 50vh;
-        position: relative;
+  .tab_menu {
+    margin-top: 5vh;
+  }
 
-    }
-    .cont_area2{
-        background-color: #fff6d0;
-        width: 85vw;
-        height: 50vh;
-        position: relative;
-        top: -50vh;
+  .is_on {
+    display: inline-block;
+    position: relative;
+    left: 15vw;
+    top: 5vh;
+    color: rgba(50, 50, 50, 100%);
+  }
+  .btn {
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    padding: 20px;
+    border-bottom: 2px solid transparent;
+  }
+  .tab_menu > .list > .is_on:hover > .btn {
+    color: rgba(0, 180, 0, 100%);
+    border-bottom: 2px solid rgba(0, 180, 0, 100%);
+  }
 
-    }
-    .cont_area3{
-        background-color: #fff6d0;
-        width: 85vw;
-        height: 50vh;
-        position: relative;
-        top: -100vh;
+  .tit {
+    text-align: center;
+    margin: 2vh 0vw;
+    font-weight: 600;
+    color: rgba(50, 50, 50, 100%);
+  }
+  .search-box {
+    position: absolute;
+    left: 13vh;
+  }
 
-    }
-    .tab_menu>.list>.is_on
-    {
-        display: inline-block;
+  .notice_on,
+  .FAQ_on {
+    display: inline-block;
+    position: relative;
+    top: 10vh;
+    left: 9vh;
+  }
 
-    }
-    .list{
-        background-color: #fff6d0;
-        width: 85vw;
-        height: 6vh;
-        border-top: 2px solid silver;
-        border-bottom: 2px solid silver;
-        text-align: center;
-    }
-    .is_on{
-        position: relative;
-        left: 2vh;
-        top: 2vh;
-        color: black;
+  .tab_selected {
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    left: 9vh;
+  }
 
-    }
-    .btn{
-        padding: 5px;
-        margin-right: 2vh;
-    }
-    .tab_menu>.list>.is_on:hover > .btn{
-        color: #1abb9b;
-        border-bottom: #1abb9b;
-    }
-    .tab_menu{
-        display: block;
-    }
-    .tit{
-      position: relative;
-      top: 3vh;
-      left: 18vh;
-      font-size: 25px;
-    }
-    .search-wrap{
-      position: absolute;
-      top: 8vh;
-      left: 14vh;
-      font-size: 14px;
-    }
+  .btn1,
+  .btn2,
+  .btn3 {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .notice_on:hover > .btn1,
+  .FAQ_on:hover > .btn2,
+  .tab_selected:hover > .btn3 {
+    color: white;
+    background-color: rgba(0, 180, 0, 100%);
+    border-radius: 10px;
+  }
 
-    .cont>.notice_list>.notice_on{
-        display: inline-block;
-        text-align: center;
-    }
-    .btn1{
-        list-style: none;
-        text-align: center;
-        font-size: 16px;
-        color: black;
-        padding: 2px 2px;
-        text-decoration: none;
+  .tabnotice1,
+  .tabFAQ1 {
+    position: relative;
+    top: 14vh;
+    left: 2vh;
+  }
 
-    }
-    .notice_on{
-        position: relative;
-        top: 7vh;
-        left: 9vh;
-    }
-    .cont > .notice_list> .notice_on:hover> .btn1{
-        color: white;
-        background-color: #1abb9b;
-        border-radius: 10px;
+  table {
+    border-collapse: collapse;
+    width: 80vw;
+    height: 22vh;
+    border-bottom: 1px solid #555555;
+    border-top: 1px solid #555555;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    font-size: smaller;
+  }
+  thead {
+    background-color: rgba(242, 242, 242, 80%);
+  }
 
-    }
+  .th1 {
+    width: 5vh;
+    padding: 1.5vh;
+  }
+  .th2 {
+    width: 20vh;
+  }
+  .th3 {
+    width: auto;
+  }
 
-    #tabnotice1{
-        position: relative;
-        top: 11vh;
-        left: 2vh;
-    }
+  th {
+    font-weight: 500;
+    border-bottom: 1px solid #555555;
+  }
+  td {
+    border-bottom: 1px solid #555555;
+  }
 
-    table{
-        width: 80vw;
-        height: 22vh;
-        border-bottom: 1px solid #555555;
-        border-top:1px solid #555555;
-        position: relative;
-        background-color: white;
-    }
-    thead{
-        background-color: #d1d2d5;
-    }
+  .num {
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    font-size: 10px;
+    display: inline-block;
+    color: #555555;
+    text-align: center;
+    line-height: 3vh;
+    border: 1px solid gray;
+  }
 
-    .th1{
-        text-align: center;
-        width: 2vw;
-        height: 3vh;
-        font-size: 10px;
+  .page-btn {
+    position: relative;
+    padding: 0vh 25vw;
+    top: 15vh;
+  }
 
-    }
-    .th2{
-        font-size: 10px;
-        text-align: center;
-    }
-    .th3{
-        font-size: 10px;
-        text-align: center;
+  .visit {
+    position: relative;
+    z-index: 10;
+  }
 
-    }
+  .search-box > p {
+    font-size: 12px;
+    margin-bottom: 2vh;
+  }
 
-    th{
-
-        border-bottom: 1px solid #555555;
-    }
-    td{
-        width: 2vw;
-        height: 5vh;
-        border-bottom: 1px solid #555555;
-    }
-    .num{
-        width: 3vh;
-        height: 3vh;
-        border-radius: 50%;
-        font-size: 10px;
-        display: inline-block;
-        color: #555555;
-        text-align: center;
-        line-height: 3vh;
-        border: 1px solid gray;
-    }
-
-    .page-btn{
-        position: relative;
-        left: 10vh;
-        top: 1.5vh;
-    }
-
-    .visit {
-        position: relative;
-        z-index: 10;
-    }
-    .tit{
-        left: 130px;
-    }
-    .search-wrap{
-        position: relative;
-        left: 100px;
-        top: 35px;
-    }
-    .search-box>p{
-        font-size: 12px;
-    }
-    .cont2 > .FAQ_list > .FAQ_on{
-        display: inline-block;
-    }
-
-    .FAQ_on{
-        text-decoration: none;
-        position: relative;
-       top: 45px;
-        font-size: 16px;
-        text-align: center;
-    }
-    .btn2{
-        color: black;
-        text-align: center;
-        position: relative;
-        left: 50px;
-    }
-    .cont2> .FAQ_list> .FAQ_on:hover> .btn2{
-        color: white;
-        background-color: #1abb9b;
-        border-radius: 10px;
-    }
-    #tabFAQ1{
-        position: relative;
-        top: 7vh;
-        left: 2vh;
-    }
-    .tab3>.Inquiry_list>.btn3{
-        display: inline-block;
-
-    }
-    .btn3{
-        color: black;
-    }
-    .cont3 > .Inquiry_list > .tab_selected{
-        display: inline-block;
-        position: relative;
-        top: 3.5vh;
-        left: 11vh;
-
-    }
-    .cont3>.Inquiry_list>.tab_selected:hover>.btn3{
-        color: white;
-        background-color: #1abb9b;
-        border-radius: 10px;
-    }
-   #tabInquiry1{
-       position: relative;
-       top: 3vh;
-       left: 10vh;
-   }
-   .tit3{
-       position: relative;
-       left: -9vh;
-       top: 1.5vh;
-   }
-   .select-wrap{
-       position: relative;
-       top: -1vh;
-   }
-   .alertMsg{
-       position: relative;
-       left: -5vh;
-   }
-   .alertMsg1{
-       position: relative;
-       left: -5vh;
-       top: 0.5vh;
-   }
-   .txt2{
-       position: absolute;
-       top: 1vh;
-       left: 4vh;
-       width: 55vw;
-   }
-   .title5{
-       position: absolute;
-       top: 35vh;
-        left: -5vh;
-
-   }
-   .button4{
-       position: relative;
-       top: 14.5vh;
-       left: 3vh;
-   }
-
-
-
+  .tabInquiry1 {
+    position: relative;
+    top: 9vh;
+    left: 10vw;
+  }
+  .tit3 {
+    display: inline-block;
+    width: 15vw;
+    height: 3vh;
+  }
+  textarea {
+    width: 50vw;
+    height: 20vh;
+  }
+  .button4 input {
+    position: relative;
+    left: 16vw;
+  }
 }
