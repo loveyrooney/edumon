@@ -13,6 +13,7 @@ screen and (min-height: 760px) and (orientation: landscape) {
     body{
         background-color:rgba(255,255,255, 100%);
     }
+
     #wrap>h1 {
         padding-top: 50px;
         padding-bottom: 10px;
@@ -72,7 +73,7 @@ screen and (min-height: 760px) and (orientation: landscape) {
         background-color: rgba(0, 180, 0, 100%);
     }
     footer img {
-        width: 94vw;
+        width: 80vw;
         height: auto;
         position: relative;
         top: 120px;
@@ -91,15 +92,16 @@ screen and (max-height: 479px) and (orientation: landscape) {
     #wrap {
         margin: 0 auto;
         width: 95%;
-        text-align: center;
     }
 
     #wrap>h1 {
         padding-top: 50px;
         padding-bottom: 10px;
+        text-align: center;
     }
     #wrap>h3 {
         padding-bottom: 60px;
+        text-align: center;
     }
     body{
         background-color:rgba(255,255,255, 100%);
@@ -137,7 +139,9 @@ screen and (max-height: 479px) and (orientation: landscape) {
         margin: 10px 20px;
         box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
     }
-
+    .btn {
+        text-align: center;
+    }
     button{
         font-size: 1rem;
         border-radius: 20px;
@@ -155,7 +159,7 @@ screen and (max-height: 479px) and (orientation: landscape) {
         background-color: rgba(0, 180, 0, 100%);
     }
     footer img {
-        width: 94vw;
+        width: 80vw;
         height: auto;
         position: relative;
         top: 30px;

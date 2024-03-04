@@ -123,8 +123,11 @@
     height: auto;
     margin: 2vh 0vw;
   }
+  footer {
+    margin: 0vh 3vw 0vh 5vw;
+  }
   footer img {
-    width: 100vw;
+    width: 80vw;
     height: auto;
   }
 }
@@ -269,8 +272,11 @@
     height: auto;
     margin: 1vh 0vw;
   }
+  footer {
+    margin: 0vh 2vw 0vh 2vw;
+  }
   footer img {
-    width: 100vw;
+    width: 80vw;
     height: auto;
   }
 }

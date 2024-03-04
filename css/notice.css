@@ -5,8 +5,8 @@
     padding: 0;
   }
   #wrap {
+    width: 90vw;
     margin: 0 auto;
-    width: 90%;
     height: 120vh;
   }
 
@@ -23,17 +23,18 @@
     height: 70vh;
     padding: 10px;
     position: relative;
+    left: 2vw;
     background-color: white;
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
   }
   .cont_area1 {
-    top: 10vh;
+    top: 12vh;
   }
   .cont_area2 {
-    top: -63vh;
+    top: -61vh;
   }
   .cont_area3 {
-    top: -137vh;
+    top: -135vh;
   }
 
   .tab_menu {
@@ -43,7 +44,7 @@
   .is_on {
     display: inline-block;
     position: relative;
-    left: 31vw;
+    left: 10vw;
     top: 5vh;
   }
 
@@ -69,14 +70,18 @@
   }
 
   .search-box {
+    width: 60vw;
     position: relative;
-    left: 30vw;
+    left: 25vw;
     top: 0.5vh;
 
   }
-  p{
-   position: relative;
-   left: 5vw;
+  .search-box > p {
+    width: 40vw;
+    position: relative;
+    left: 5vw;
+    font-size: 12px;
+    margin-bottom: 2vh;
   }
   .txt{
     width: 400px;
@@ -88,7 +93,6 @@
     outline: none;
 
   }
-
 
   .notice_on{
     display: inline-block;
@@ -194,20 +198,16 @@
     z-index: 10;
   }
 
-  .search-box > p {
-    font-size: 12px;
-    margin-bottom: 2vh;
-  }
-
   .tabInquiry1 {
     position: relative;
     top: 9vh;
     left: 10vw;
+    width: 70vw;
   }
   .tit3 {
     display: inline-block;
-    width: 15vw;
-    height: 3vh;
+    width: 10vw;
+    margin-bottom: 1vh;
   }
   textarea {
     width: 50vw;
@@ -215,7 +215,12 @@
   }
   .button4 input {
     position: relative;
-    left: 16vw;
+    left: 10.5vw;
+    width: 7vw;
+  }
+  footer {
+    position: relative;
+    top: -120vh;
   }
 }
 
@@ -248,13 +253,13 @@
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
   }
   .cont_area1 {
-    top: 10vh;
+    top: 12vh;
   }
   .cont_area2 {
-    top: -63vh;
+    top: -61vh;
   }
   .cont_area3 {
-    top: -137vh;
+    top: -135vh;
   }
 
   .tab_menu {
@@ -410,5 +415,9 @@
   .button4 input {
     position: relative;
     left: 16vw;
+  }
+  footer {
+    position: relative;
+    top: -118vh;
   }
 }

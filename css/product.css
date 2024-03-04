@@ -154,10 +154,10 @@ screen and (min-height: 760px) and (orientation: landscape) {
         width: 50vw;
     }
     footer img {
-        width: 94vw;
+        width: 80vw;
         height: auto;
         position: relative;
-        top: 120px;
+        top: 60px;
     }
 }
 
@@ -174,7 +174,7 @@ screen and (max-height: 479px) and (orientation: landscape) {
         width: 100%;
     }
     body{
-        background-color:rgba(255,255,255, 100%);
+        background-color: white;
     }
     .one{
         display: flex;
