@@ -6,7 +6,7 @@ and (orientation: landscape){
         padding: 0;
     }
     body{
-        background-color: white;
+        background-color: rgba(242,242,242,50%);
     }
     #wrap{
         width: 90%;
@@ -29,13 +29,12 @@ and (orientation: landscape){
     }
     figure img{
         width: 30vw;
-        box-shadow : 0 5px 5px 0 rgba(0,0,0,.1);
     }
-    figcaption{
+/*    figcaption{
         text-align: center;
         padding-top: 1vh;
         font-size: 1.2rem;
-    }
+    }*/
     #purchase_form{
         margin-left: 5vw;
     }
@@ -85,32 +84,28 @@ and (orientation: landscape){
         margin-bottom: 10px;
     }
     #tel{
-        text-decoration: none;
-        color: rgb(51,51,51);
-        font-weight: bold;
-        background-color: #2ACAAF;
-        margin-right: 10px;
-        padding: 6px 12px;
-        border-radius: 2vh;
+        padding: 1vh 1.1vw;
     }
-    #tel:before{
-        content: url("../img/telephone.png");
-        padding: 0 1vw 0 0;
-        position: relative;
-        top: 6px;
-    }
-    #buy{
+    #tel, #buy{
         margin-right: 10px;
     }
-    #buy, #add{
+    #tel, #buy, #add{
         background-color: #2ACAAF;
         color: rgb(51,51,51);
         font-weight: bold;
         font-size: 1.4rem;
         border: none;
-        padding: 0.5vh 1.1vw 1vh;
         border-radius: 2vh;
         cursor: pointer;
+    }
+    #buy, #add{
+        padding: 0.5vh 1.1vw 1vh;
+    }
+    #tel:before{
+        content: url("../img/telephone.png");
+        padding: 0 1vw 0 0;
+        position: relative;
+        top: 9px;
     }
     #buy:before{
         content: url("../img/credit.png");
@@ -299,25 +294,18 @@ and (orientation: landscape){
     #tel, #buy, #add{
         font-size: 1.1rem;
         font-weight: bolder;
-        padding: 3px 10px;
+        padding: 6px 10px;
         margin: 0 3vw;
         text-align: center;
         color: rgb(51,51,51);
         background-color: #2ACAAF;
-    }
-    #tel{
         text-decoration: none;
-        margin-right: 10px;
-        padding: 7px 12px 5px;
-        border-radius: 2vh;
-    }
-    #buy{
-        margin-right: 10px;
-    }
-    #buy, #add{
         border: none;
         border-radius: 2vh;
         cursor: pointer;
+    }
+    #buy{
+        margin-right: 10px;
     }
     #tel:active, #tel:focus,
     #buy:active, #buy:focus,
