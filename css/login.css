@@ -4,17 +4,20 @@ and (orientation: landscape) {
     * {
         box-sizing: border-box
     }
-
+    #wrap{
+        margin: 0 auto;
+        width: 95%;
+    }
     /* style the container */
     .container {
         position: relative;
         border-radius: 5px;
-        padding: 30px 0 40px 0;
+        padding: 40px 0 550px 0;
     }
 
     /* style inputs and link buttons */
     input, .btn {
-        width: 100%;
+        width: 150%;
         padding: 12px;
         border: none;
         border-radius: 4px;
@@ -109,6 +112,17 @@ and (orientation: landscape) {
         font-weight: bold;
     }
     /* Clear floats after the columns */
+    .row{
+        position: relative;
+        top: 10vh;
+        right: 6vw;
+    }
+    .row h2{
+        position: relative;
+        left: 50vw;
+        font-weight: bold;
+        font-size: 40px;
+    }
     .row:after {
         content: "";
         display: table;

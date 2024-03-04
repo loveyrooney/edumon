@@ -10,6 +10,9 @@ and (orientation: landscape)  {
         margin: 0 auto;
         width: 90%;
     }
+   .tab a{
+        color:  rgb(50,50,50);
+    }
     /* Style the tab */
     .tab {
         overflow: hidden;
@@ -134,6 +137,10 @@ and (orientation: landscape)  {
         left:-1vw;
         font-size: 20px;
         vertical-align: middle;
+    }
+    footer{
+        position: relative;
+        top: 3vh;
     }
 }
 @media screen and (max-width: 767px) , screen and (max-height: 479px) and (orientation: landscape) {
