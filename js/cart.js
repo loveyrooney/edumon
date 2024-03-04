@@ -75,7 +75,8 @@ let fn=function check_box(event) {
     tot.forEach(item=>{
         tot_price+=item;
     });
-    document.getElementById('tot_price').value=tot_price;
+    document.getElementById('tot_price').value=tot_price.toLocaleString();
+    document.getElementById("result").value = tot_price.toLocaleString();
 
     //change function!! change시 수량 변경
     su[0].onchange=function (e) {
@@ -100,6 +101,7 @@ let fn=function check_box(event) {
         })
         console.log(tot_price,"tot_price");
         document.getElementById("tot_price").value = tot_price.toLocaleString();
+        document.getElementById("result").value = tot_price.toLocaleString();
         /*if (tot_price > 0) {
             document.getElementById("delivery").value = 0
             document.getElementById("result").value = tot_price.toLocaleString();
