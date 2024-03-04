@@ -22,10 +22,14 @@ and (orientation: landscape)  {
         position: relative;
         font-size: 50px;
     }
+    .main{
+        position: relative;
+        left: 5vw;
+    }
     .view{
         border-bottom: 1px solid rgba(0, 0, 0, .05);
         width: 40%;
-        height: 600px;
+        height: 500px;
         margin: 30px;
         float: left;
         position: relative;
