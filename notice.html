@@ -107,6 +107,7 @@
           />
           <button class="btn-search">검색</button>
         </div>
+
         <ul class="notice_list">
           <li class="notice_on">
             <a href="#tabnotice1" class="btn1">전체</a>
@@ -157,12 +158,13 @@
           </tbody>
         </table>
         <div class="page-btn">
-          <span class="num active">1</span>
+          <span class="num">1</span>
           <span class="num">2</span>
           <span class="num">3</span>
           <span class="num">3</span>
           <span class="num">4</span>
-          <span class="num">5</span>
+
+
         </div>
       </div>
 
@@ -247,7 +249,6 @@
           <span class="num">3</span>
           <span class="num">3</span>
           <span class="num">4</span>
-          <span class="num">5</span>
         </div>
       </div>
 
@@ -305,7 +306,6 @@
               placeholder="제목을 입력하세요."
               name="Bbs.Title"
               id="title"
-              onblur="goCheck('content'); return false;"
             />
           </div>
           <div class="alertMsg1" id="alertMsg_content">
@@ -316,7 +316,6 @@
               placeholder="내용을 입력하세요."
               name="Bbs.Contents"
               id="content"
-              onblur="goCheck('content'); return false;"
             ></textarea>
           </div>
           <div class="alertMsg2" id="add_title">
@@ -328,7 +327,6 @@
               placeholder="선택한 파일이 없습니다."
               name="Bbs.Title"
               id="add"
-              onblur="goCheck('content'); return false;"
             />
           </div>
           <div class="button4">
