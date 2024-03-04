@@ -1,213 +1,213 @@
-@media screen and (min-width: 768px)
-, screen and (min-height: 760px)
-and (orientation: landscape) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
+@media screen and (min-width: 768px),
+  screen and (min-height: 760px) and (orientation: landscape) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
-    #wrap {
-        margin: 0 auto;
-        width: 90%;
-    }
+  body {
+    background-color: white;
+  }
 
-    body{
-        background-color:  white;
-    }
+  .Authmain {
+    position: relative;
+    left: 22vw;
+  }
+  .Authmain img {
+    width: 50%;
+  }
+  .check,
+  .name,
+  .tel,
+  .btn1,
+  .notice {
+    list-style: none;
+    font-size: 12px;
+  }
+  ul li input {
+    margin: 0px 1px;
+  }
+  .name {
+    letter-spacing: 30px;
+  }
+  .name input {
+    width: 7vw;
+    position: relative;
+    right: 21px;
+  }
+  .step1 ul li {
+    width: 70%;
+    position: relative;
+    left: 30px;
+    margin: 10px 0px;
+    padding: 4px;
+  }
+  .tel input {
+    width: 3vw;
+    margin-left: 7px;
+  }
+  .btn1 button {
+    font-size: 15px;
+    padding: 12px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: lightgrey;
+    border: 1px solid rgb(120, 120, 120);
+    position: relative;
+    left: 34vw;
+    bottom: 1vh;
+  }
+  .tel button {
+    width: 80px;
+    padding: 2px 0px;
+    font-size: 9px;
+    margin-right: 2px;
+    background-color: lightgrey;
+    border: 1px solid rgb(120, 120, 120);
+  }
+  .notice {
+    position: relative;
+    bottom: 70px;
+  }
+  .step2 {
+    position: relative;
+    bottom: 4vh;
+  }
+  .step2 ul li {
+    width: 70%;
+    position: relative;
+    left: 30px;
+    padding: 7px;
+  }
+  .check {
+    color: #ff0000;
+  }
+  #agree {
+    margin-right: 10px;
+  }
+  #agree2 {
+    margin-right: 10px;
+  }
+  .btn2 {
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    position: relative;
+    border-radius: 20px;
+    background-color: lightgrey;
+    border: 1px solid rgb(120, 120, 120, 50%);
+    left: 140px;
+    bottom: 30px;
+  }
+  .bt1:hover {
+    background-color: darkgray;
+  }
 
-    .Authmain{
-        position: relative;
-        left: 22vw;
-    }
-    .Authmain img{
-        width: 50%;
-    }
-    .check, .name, .tel, .btn1, .notice{
-        list-style: none;
-        font-size: 12px;
-    }
-    ul li input{
-        margin: 0px 1px;
-    }
-    .name{
-        letter-spacing: 30px;
-    }
-    .name input{
-        width: 7vw;
-        position: relative;
-        right: 21px;
-    }
-    .step1 ul li{
-        width: 70%;
-        position: relative;
-        left: 30px;
-        margin: 10px 0px;
-        padding: 4px;
-    }
-    .tel input{
-        width: 3vw;
-        margin-left: 7px;
-    }
-    .btn1 button{
-        font-size: 15px;
-        padding: 12px;
-        font-weight: bolder;
-        border-radius: 10px;
-        background-color: lightgrey;
-        border:1px solid  rgb(120,120,120);
-        position: relative;
-        left: 34vw;
-        bottom: 1vh;
-    }
-    .tel button{
-        width: 80px;
-        padding: 2px 0px;
-        font-size: 9px;
-        margin-right: 2px;
-        background-color: lightgrey;
-        border:1px solid  rgb(120,120,120);
-    }
-    .notice{
-        position: relative;
-        bottom: 70px;
-    }
-    .step2{
-        position: relative;
-        bottom: 4vh;
-    }
-    .step2 ul li{
-        width: 70%;
-        position: relative;
-        left: 30px;
-        padding: 7px;
-    }
-    .check{
-        color: #ff0000;
-    }
-    #agree {
-        margin-right: 10px;
-    }
-    #agree2{
-        margin-right:10px;
-    }
-    .btn2{
-        padding: 12px 20px;
-        font-size: 15px;
-        font-weight: bolder;
-        position: relative;
-        border-radius: 20px;
-        background-color: lightgrey;
-        border:1px solid  rgb(120,120,120,50%);
-        left: 140px;
-        bottom: 30px;
-    }
-    .bt1:hover{        background-color: darkgray;
-    }
-
-    button:hover{
-        background-color: darkgray;
-    }
-    footer img{
-        width: 100%;
-    }
+  button:hover {
+    background-color: darkgray;
+  }
+  footer img {
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 767px) , screen and (max-height: 479px) and (orientation: landscape) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
+@media screen and (max-width: 767px),
+  screen and (max-height: 479px) and (orientation: landscape) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
-    #wrap {
-        margin: 0 auto;
-        width: 90%;
-    }
-    section img{
-        width: 100%;
-    }
-    body{
-        background-color: white;
-    }
-    .check, .name, .tel, .btn1, .notice{
-        list-style: none;
-        font-size: 10px;
-    }
-    ul li input{
-        margin: 0px 1px;
-    }
-    .name{
-        letter-spacing: 30px;
-    }
-    .name input{
-        width: 13vw;
-        position: relative;
-        right: 21px;
-    }
-    .step1 ul li{
-        width: 70%;
-        position: relative;
-        left: 30px;
-        padding: 4px;
-    }
-    .tel input{
-        width: 40px;
-    }
-    .btn1 button{
-        padding: 10px;
-        border-radius: 15px;
-        border: 1px solid  rgb(120,120,120);
-        background-color: lightgrey;
-        position: relative;
-        left: 60vw;
-        bottom: 30px;
-        font-weight: bolder;
-    }
-    .tel button{
-        width: 13vw;
-        font-size: 7px;
-        margin:0px 10px;
-        padding: 2px 0px;
-        background-color: lightgrey;
-        border:1px solid  rgb(120,120,120);
-    }
-    .notice{
-        position: relative;
-        bottom: 50px;
-    }
-    .step2 ul li{
-        width: 70%;
-        position: relative;
-        left: 30px;
-        padding: 7px;
-        /*font-size: 12px;*/
-    }
-    .check{
-        color: #ff0000;
-    }
-    #agree {
-        margin-right: 10px;
-    }
-    #agree2{
-        margin-right:10px;
-        /*font-size: 10px;*/
-    }
-    .btn2{
-        padding: 10px 30px;
-        font-size: 20px;
-        font-weight: bolder;
-        position: relative;
-        border-radius: 20px;
-        background-color: lightgrey;
-        border:1px solid  rgb(120,120,120);
-        left: 15vw;
-        margin: 20px;
-        /*bottom: -10px;*/
-    }
-    button:hover{
-        background-color: darkgray;
-    }
+  section img {
+    width: 100%;
+  }
+  body {
+    background-color: white;
+  }
+  .check,
+  .name,
+  .tel,
+  .btn1,
+  .notice {
+    list-style: none;
+    font-size: 10px;
+  }
+  ul li input {
+    margin: 0px 1px;
+  }
+  .name {
+    letter-spacing: 30px;
+  }
+  .name input {
+    width: 13vw;
+    position: relative;
+    right: 21px;
+  }
+  .step1 ul li {
+    width: 70%;
+    position: relative;
+    left: 30px;
+    padding: 4px;
+  }
+  .tel input {
+    width: 40px;
+  }
+  .btn1 button {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(120, 120, 120);
+    background-color: lightgrey;
+    position: relative;
+    left: 60vw;
+    bottom: 30px;
+    font-weight: bolder;
+  }
+  .tel button {
+    width: 13vw;
+    font-size: 7px;
+    margin: 0px 10px;
+    padding: 2px 0px;
+    background-color: lightgrey;
+    border: 1px solid rgb(120, 120, 120);
+  }
+  .notice {
+    position: relative;
+    bottom: 50px;
+  }
+  .step2 ul li {
+    width: 70%;
+    position: relative;
+    left: 30px;
+    padding: 7px;
+    /*font-size: 12px;*/
+  }
+  .check {
+    color: #ff0000;
+  }
+  #agree {
+    margin-right: 10px;
+  }
+  #agree2 {
+    margin-right: 10px;
+    /*font-size: 10px;*/
+  }
+  .btn2 {
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    border-radius: 20px;
+    background-color: lightgrey;
+    border: 1px solid rgb(120, 120, 120);
+    left: 15vw;
+    margin: 20px;
+    /*bottom: -10px;*/
+  }
+  button:hover {
+    background-color: darkgray;
+  }
 
-    .Authmain img{
-        width: 90%;
-    }
+  .Authmain img {
+    width: 90%;
+  }
 }
