@@ -50,36 +50,77 @@ let check_choice=document.querySelectorAll('.choice');
 /* 가격 계산_2 */
 let check_choice=document.querySelectorAll('.choice');
 let tot=[];
+let i=0;
 let delivery=Number(document.getElementById("delivery").value.replace(',',''));
-let fn=function check_box(event){
+let fn=function check_box(event) {
 
     let ch_check_div = event.target.parentElement.parentElement;
-    let child_check_div= ch_check_div.children;
+    let child_check_div = ch_check_div.children;
 
-    let price=child_check_div[3].querySelectorAll('.price');
-    let su=child_check_div[4].querySelectorAll('.num');
+    let price = child_check_div[3].querySelectorAll('.price');
+     let su= child_check_div[4].querySelectorAll('.num');
 
+    let data_price = price[0].value.replace(",", "");
+    let data_su = Number(su[0].value);
+
+    if (child_check_div[0].children[0].checked === true) {
+        tot[i] = Number(data_price * data_su);
+        i++;
+    }else{
+        i--;
+       tot.pop();
+    }
+    console.log(tot);
+    let tot_price=0;
+    tot.forEach(item=>{
+        tot_price+=item;
+    });
+    document.getElementById('tot_price').value=tot_price;
+
+    //change function!! change시 수량 변경
+    su[0].onchange=function (e) {
+
+        let data= e.target.parentElement.parentElement.parentElement;
+        let ele_data=data.querySelectorAll('input[type="number"]');
+       for(let i=0; i<ele_data.length; i++)
+       {
+           if(ele_data[i]===e.target)
+           {
+               let pr = price[0].value.replace(',', '');
+               tot[i] = Number(e.target.value) * Number(pr);
+           }
+       }
+
+        tot_price=0;
+
+        console.log(tot,'test!!!');
+
+        tot.forEach(item => {
+            tot_price += item;
+        })
+        console.log(tot_price,"tot_price");
+        document.getElementById("tot_price").value = tot_price.toLocaleString();
+        /*if (tot_price > 0) {
+            document.getElementById("delivery").value = 0
+            document.getElementById("result").value = tot_price.toLocaleString();
+        } else {
+            document.getElementById("result").value = (tot_price + delivery).toLocaleString();
+        }*/
+    }
+
+} //fn
+
+    /*
     for(let i=0; i<check_choice.length; i++){
+          console.log(check_choice,'test');
         if(check_choice[i].checked===true){
-            su[0].onchange=function (e){
-                let tot_price=0
-                let pr=price[0].value.replace(',','');
-                tot[i]=Number(e.target.value)*Number(pr);
-                tot.forEach(item=>{
-                    tot_price+=item;
-                })
-                document.getElementById("tot_price").value=tot_price.toLocaleString();
-                if(tot_price>0){
-                    document.getElementById("delivery").value=0
-                    document.getElementById("result").value=tot_price.toLocaleString();
-                }else{
-                    document.getElementById("result").value=(tot_price+delivery).toLocaleString();
-                }
-
-            }
+            //tot[i]=Number(su[0].value)*Number(price[0].value.replace(',',''));
+            console.log(tot);
+       }
         }
     }
-}
+ */
+
 check_choice.forEach(item=>{
     item.onchange=fn;
 });

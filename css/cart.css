@@ -33,15 +33,15 @@ and (orientation: landscape){
         font-size: 1.4rem;
         font-weight: bolder;
         color: white;
-        background-color: #07b53b;
+        background-color: rgba(0, 180, 0, 100%);
         border-radius: 30vw;
         padding: 8px 15px;
     }
     #shopping:hover, #shopping:active, #shopping:focus{
         font-weight: bolder;
-        color: #07b53b;
+        color: rgba(0, 180, 0, 100%);
         background-color: white;
-        border: 2px solid #07b53b;
+        border: 2px solid rgba(0, 180, 0, 100%);
     }
     #all_del, #del{
         font-size: 1.4rem;
@@ -77,7 +77,7 @@ and (orientation: landscape){
         top: 4.4vh;
     }
     input[type=checkbox]:checked{
-        accent-color: #07b53b;
+        accent-color: rgba(0, 180, 0, 100%);
     }
     .cart_table_row{
         display: table-row;
@@ -149,7 +149,7 @@ and (orientation: landscape){
         padding: 1.2vh 2.8vw;
         font-size: 1.5rem;
         font-weight: bolder;
-        background-color: #07b53b;
+        background-color: rgba(0, 180, 0, 100%);
         color: white;
         border: none;
         border-radius: 1vw;
@@ -238,7 +238,7 @@ and (orientation: landscape){
         font-size: 1.1rem;
         font-weight: bolder;
         color: white;
-        background-color: #07b53b;
+        background-color: rgba(0, 180, 0, 100%);
         padding: 2vw;
         border-radius: 5vw;
         position: relative;
@@ -246,9 +246,9 @@ and (orientation: landscape){
     }
     #shopping:hover, #shopping:active, #shopping:focus{
         font-weight: bolder;
-        color: #07b53b;
+        color: rgba(0, 180, 0, 100%);
         background-color: white;
-        border: 2px solid #07b53b;
+        border: 2px solid rgba(0, 180, 0, 100%);
     }
     #all_del, #del{
         font-size: 1.1rem;
@@ -286,7 +286,7 @@ and (orientation: landscape){
         top: 4.4vh;
     }
     input[type=checkbox]:checked{
-        accent-color: #07b53b;
+        accent-color: rgba(0, 180, 0, 100%);
     }
     .cart_table_row{
         display: table-row;
@@ -364,7 +364,7 @@ and (orientation: landscape){
         padding: 1.2vh 2.8vw;
         font-size: 1.5rem;
         font-weight: bolder;
-        background-color: #07b53b;
+        background-color: rgba(0, 180, 0, 100%);
         color: white;
         border: none;
         border-radius: 1vw;
