@@ -87,12 +87,6 @@ screen and (min-height: 760px) and (orientation: landscape) {
         border-radius: 15px;
         padding: 5px 20px;
     }
-    footer img {
-        width: 94vw;
-        height: auto;
-        position: relative;
-        top: 120px;
-    }
 }
 
 @media screen and (max-width: 767px),
@@ -184,11 +178,5 @@ screen and (max-height: 479px) and (orientation: landscape) {
         background-color: rgba(0, 180, 0, 100%);
         border-radius: 15px;
         padding: 5px 20px;
-    }
-    footer img {
-        width: 94vw;
-        height: auto;
-        position: relative;
-        top: 30px;
     }
 }

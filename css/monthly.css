@@ -226,7 +226,7 @@ and (orientation: landscape){
         padding: 0;
     }
     body{
-        background-color: rgba(242,242,242,50%);
+        background-color: white;
     }
     #wrap{
         width: 90%;
