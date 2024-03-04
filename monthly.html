@@ -2,13 +2,76 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Title</title>
-	<script defer src="js/monthly.js"></script>
+	<title>에듀몬 - 구매</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="img/title_icon.png" rel="shortcut icon" type="image/x-icon" />
+	<link rel="stylesheet" href="css/index.css" />
 	<link rel="stylesheet" href="css/monthly.css">
+	<script defer src="js/index.js"></script>
+	<script defer src="js/monthly.js"></script>
 </head>
 <body>
 <div id="wrap">
+	<header>
+		<div id="nav_top">
+			<a tabindex="1" href="index.html"><img src="img/logo_txt.png" alt="logo" /></a>
+			<a href="#" id="hamburger" class="hamburger"></a>
+			<nav id="nav1" class="nav1">
+				<ul id="nav1_ul" class="">
+					<li class="book"><a href="product.html">교재</a></li>
+					<li class="contents_hov"><a href="contents.html">콘텐츠</a></li>
+					<li id="m_li1" class="hide">
+						<a href="#">구독회원</a>
+						<a href="superior.html">우등생 잡지</a>
+						<a href="#">교과학습</a>
+						<a href="#">학습만화</a>
+					</li>
+					<li class="service_hov"><a href="service.html">고객센터</a></li>
+					<li id="m_li2" class="hide">
+						<a href="notice.html">공지사항</a>
+						<a href="notice.html">자주 묻는 질문</a>
+						<a href="notice.html">1:1문의</a>
+					</li>
+				</ul>
+			</nav>
+			<nav id="user">
+				<ul>
+					<li><a href="#">로그인</a></li>
+					<li><a href="subAuth.html">구독인증</a></li>
+				</ul>
+			</nav>
+		</div>
+		<nav id="contents" class="hide">
+			<ul class="contents">
+				<li><a id="sub" href="#">구독회원</a></li>
+				<li><a href="#">수학 강의</a></li>
+				<li><a href="#">문제은행</a></li>
+			</ul>
+			<ul class="contents">
+				<li><a href="#">우등생 잡지</a></li>
+				<li><a href="superior.html">우등생 논술</a></li>
+				<li><a href="#">우등생 과학</a></li>
+			</ul>
+			<ul class="contents">
+				<li><a href="#">교과학습</a></li>
+				<li><a href="#">국어</a></li>
+				<li><a href="#">사회/과학</a></li>
+			</ul>
+			<ul class="contents">
+				<li><a href="#">학습만화</a></li>
+				<li><a href="#">별난만화</a></li>
+				<li><a href="#">교과만화</a></li>
+				<li><a href="#">수학만화</a></li>
+			</ul>
+		</nav>
+		<nav id="service" class="hide">
+			<ul>
+				<li><a id="info" href="notice.html">공지사항</a></li>
+				<li><a href="notice.html">자주 묻는 질문</a></li>
+				<li><a href="notice.html">1:1 문의</a></li>
+			</ul>
+		</nav>
+	</header>
 	<div id="top">
 		<figure>
 			<img src="img/monthly_book1.jpg" alt="월간우등생 학습(2024) 이미지">
@@ -49,7 +112,7 @@
 					<!--<span><s>169,000</s> -> 160,550</span>-->
 				</li>
 				<li>
-					<a href="#" id="tel" class="btn">전화 주문</a>
+					<a href="call.html" id="tel" class="btn">전화 주문</a>
 					<button type="button" id="buy" class="btn">바로 구매</button>
 					<button type="button" id="add" class="btn">장바구니 추가</button>
 				</li>
@@ -129,6 +192,7 @@
 			</ul>
 		</section>
 	</div>
+	<footer><img src="img/com_footer08.jpg" alt="footer" /></footer>
 </div>
 </body>
 </html>
