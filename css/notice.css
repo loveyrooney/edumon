@@ -7,6 +7,7 @@
   #wrap {
     margin: 0 auto;
     width: 90%;
+    height: 120vh;
   }
 
   body ul li {
@@ -42,13 +43,14 @@
   .is_on {
     display: inline-block;
     position: relative;
-    left: 15vw;
+    left: 31vw;
     top: 5vh;
   }
+
   .btn {
     color: rgba(50, 50, 50, 100%);
     text-align: center;
-    font-size: large;
+    font-size: x-large;
     font-weight: 800;
     padding: 20px;
     border-bottom: 2px solid transparent;
@@ -62,26 +64,50 @@
     text-align: center;
     margin: 2vh 0vw;
     font-weight: 600;
+    font-size: 45px;
     color: rgba(50, 50, 50, 100%);
   }
+
   .search-box {
-    position: absolute;
-    left: 13vh;
+    position: relative;
+    left: 30vw;
+    top: 0.5vh;
+
+  }
+  p{
+   position: relative;
+   left: 5vw;
+  }
+  .txt{
+    width: 400px;
+    height: 20px;
+    border: 1px solid #999999;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+
   }
 
-  .notice_on,
+
+  .notice_on{
+    display: inline-block;
+    position: relative;
+    top: 9vh;
+    left: 32vw;
+  }
   .FAQ_on {
     display: inline-block;
     position: relative;
     top: 10vh;
-    left: 9vh;
+    left: 8vw;
   }
 
   .tab_selected {
     display: inline-block;
     position: relative;
-    top: 4vh;
-    left: 9vh;
+    left: 36vw;
+    top: 1vh;
   }
 
   .btn1,
@@ -152,6 +178,9 @@
     text-align: center;
     line-height: 3vh;
     border: 1px solid gray;
+    position: relative;
+    left: 11vw;
+    top: 1vh;
   }
 
   .page-btn {
@@ -199,6 +228,7 @@
   #wrap {
     margin: 0 auto;
     width: 90%;
+    height: 120vh;
   }
 
   body ul li {
@@ -234,7 +264,7 @@
   .is_on {
     display: inline-block;
     position: relative;
-    left: 15vw;
+    left: 10vw;
     top: 5vh;
   }
   .btn {
@@ -266,14 +296,15 @@
     display: inline-block;
     position: relative;
     top: 10vh;
-    left: 9vh;
+    left: 5vw;
+    margin: 0.5vh 0.5vw;
   }
 
   .tab_selected {
     display: inline-block;
     position: relative;
     top: 4vh;
-    left: 9vh;
+    left: 20vw;
   }
 
   .btn1,
