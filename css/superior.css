@@ -164,13 +164,13 @@ and (orientation: landscape)  {
     /* Style the buttons that are used to open the tab content */
     .tab button {
         position: relative;
-        left: 4vw;
+        left: 8vw;
         background-color: inherit;
         float: left;
         border: none;
         outline: none;
         cursor: pointer;
-        padding: 30px 10px;
+        padding: 20px 30px;
         transition: 0.3s;
         font-size: 20px;
         text-align: center;
@@ -219,10 +219,10 @@ and (orientation: landscape)  {
     .write{
         margin: 10px;
         position: relative;
-        left: 3vw;
+        left: 4vw;
     }
     .write input{
-        padding: 10px 8px;
+        padding: 10px 8vw;
     }
     .write button{
         padding: 10px 5px;
@@ -282,5 +282,9 @@ and (orientation: landscape)  {
         left: 2vw;
         font-size: 10px;
         vertical-align: middle;
+    }
+    .tab a{
+        color:  rgb(50,50,50);
+        text-decoration: none;
     }
 }

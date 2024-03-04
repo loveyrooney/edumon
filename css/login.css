@@ -88,16 +88,15 @@ and (orientation: landscape) {
 
     .vl {
         border: 1px solid lightgrey;
-        width: 70%;
+        width: 30%;
         position: absolute;
-        left: 20vw;
+        left: 35vw;
         margin: 13px;
     }
 
     /* Two-column layout */
     .col1 {
-        width: 50%;
-        margin: auto;
+        margin:0 36%;
         padding: 0 50px;
         margin-top: 6px;
         position: relative;
@@ -105,9 +104,7 @@ and (orientation: landscape) {
 
     .col2 {
         position: relative;
-        top: 1vh;
-        width: 40%;
-        margin: auto;
+        margin: 0px 41%;
         padding: 20px 10px;
         font-weight: bold;
     }
@@ -119,9 +116,9 @@ and (orientation: landscape) {
     }
     .row h2{
         position: relative;
-        left: 50vw;
+        left: 46vw;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 30px;
     }
     .row:after {
         content: "";
