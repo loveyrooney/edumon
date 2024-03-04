@@ -20,6 +20,6 @@ for(let i=0; i < acc.length; i++){
 document.getElementById("add").onclick=function (){
     let result=confirm("상품을 장바구니에 추가했습니다. 장바구니에 가시겠습니까?");
     if(result){
-        location.replace('cart.html')
+        window.location.href = 'cart.html'
     }
 }
