@@ -17,13 +17,14 @@ and (orientation: landscape) {
 
     .Authmain{
         position: relative;
-        left: 10vw;
+        left: 35vw;
     }
     .Authmain img{
-        width: 70%;
+        width: 50%;
     }
     ul li{
         list-style: none;
+        font-size: 12px;
     }
     ul li input{
         margin: 0px 1px;
@@ -32,7 +33,7 @@ and (orientation: landscape) {
         letter-spacing: 30px;
     }
     .name input{
-        width: 13vw;
+        width: 7vw;
         position: relative;
         right: 21px;
     }
@@ -40,21 +41,23 @@ and (orientation: landscape) {
         width: 70%;
         position: relative;
         left: 30px;
+        margin: 10px 0px;
         padding: 4px;
     }
     .tel input{
-        width: 70px;
+        width: 3vw;
+        margin-left: 7px;
     }
     .btn1 button{
         font-size: 15px;
-        padding: 30px;
+        padding: 12px;
         font-weight: bolder;
-        border-radius: 20px;
+        border-radius: 10px;
         background-color: lightgrey;
         border:1px solid  rgb(120,120,120);
         position: relative;
-        left: 480px;
-        bottom: 60px;
+        left: 34vw;
+        bottom: 1vh;
     }
     .tel button{
         width: 80px;
@@ -88,16 +91,19 @@ and (orientation: landscape) {
         margin-right:10px;
     }
     .btn2{
-        padding: 15px 40px;
-        font-size: 20px;
+        padding: 12px 20px;
+        font-size: 15px;
         font-weight: bolder;
         position: relative;
         border-radius: 20px;
         background-color: lightgrey;
         border:1px solid  rgb(120,120,120,50%);
-        left: 230px;
+        left: 140px;
         bottom: 30px;
     }
+    .bt1:hover{        background-color: darkgray;
+    }
+
     button:hover{
         background-color: darkgray;
     }
@@ -121,6 +127,7 @@ and (orientation: landscape) {
     }
     ul li{
         list-style: none;
+        font-size: 10px;
     }
     ul li input{
         margin: 0px 1px;
@@ -143,13 +150,13 @@ and (orientation: landscape) {
         width: 40px;
     }
     .btn1 button{
-        padding: 14px;
+        padding: 10px;
         border-radius: 15px;
         border: 1px solid  rgb(120,120,120);
         background-color: lightgrey;
         position: relative;
-        left: 55vw;
-        bottom: 100px;
+        left: 60vw;
+        bottom: 30px;
         font-weight: bolder;
     }
     .tel button{

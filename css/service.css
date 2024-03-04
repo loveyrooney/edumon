@@ -70,6 +70,7 @@ screen and (min-height: 760px) and (orientation: landscape) {
         font-size: 22px;
         padding-bottom: 1em;
         overflow: hidden;
+        color: khaki;
 
     }
 
