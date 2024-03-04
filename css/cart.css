@@ -140,6 +140,7 @@ and (orientation: landscape){
         padding-right: 1vw;
         font-size: 1.4rem;
         width: 25vw;
+        border: 1px solid silver;
     }
     #tot_form ul li:last-child{
         display: flex;
@@ -355,6 +356,7 @@ and (orientation: landscape){
         padding-right: 1vw;
         font-size: 1.4rem;
         width: 23vw;
+        border: 1px solid silver;
     }
     #tot_form ul li:last-child{
         display: flex;
