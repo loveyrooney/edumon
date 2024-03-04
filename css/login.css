@@ -88,7 +88,7 @@ and (orientation: landscape) {
 
     .vl {
         border: 1px solid lightgrey;
-        width: 60%;
+        width: 70%;
         position: absolute;
         left: 20vw;
         margin: 13px;
@@ -144,6 +144,12 @@ and (orientation: landscape) {
         box-sizing: border-box
     }
 
+    .row h2{
+        position: relative;
+        left: 42vw;
+        font-weight: bold;
+        font-size: 30px;
+    }
     /* style the container */
     .container {
         position: relative;
@@ -266,5 +272,9 @@ and (orientation: landscape) {
     .hide-md-lg {
         display: block;
         text-align: center;
+    }
+    footer{
+        position: relative;
+        top: 2vh;
     }
 }
