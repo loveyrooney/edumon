@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px),
-screen and (min-height: 760px) and (orientation: landscape) {
-  *{
+  screen and (min-height: 760px) and (orientation: landscape) {
+  * {
     margin: 0;
     padding: 0;
   }
@@ -12,7 +12,7 @@ screen and (min-height: 760px) and (orientation: landscape) {
   }
 
   .mySlides {
-    width: 600px;
+    width: 60vw;
     height: auto;
     display: flex;
     justify-content: center;
@@ -42,10 +42,8 @@ screen and (min-height: 760px) and (orientation: landscape) {
   }
 }
 
-
 @media screen and (max-width: 767px),
-screen and (max-height: 479px) and (orientation: landscape) {
-
+  screen and (max-height: 479px) and (orientation: landscape) {
   .Slidesbackground {
     margin: 0;
     padding: 0;
@@ -59,7 +57,7 @@ screen and (max-height: 479px) and (orientation: landscape) {
   }
 
   .mySlides {
-    width: 95vw;
+    width: 70vw;
     height: auto;
     display: flex;
     justify-content: center;
@@ -86,5 +84,4 @@ screen and (max-height: 479px) and (orientation: landscape) {
       opacity: 1;
     }
   }
-
 }

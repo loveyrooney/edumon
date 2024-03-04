@@ -1,275 +1,272 @@
-@media screen and (min-width: 768px)
-, screen and (min-height: 760px)
-and (orientation: landscape) {
-    * {
-        box-sizing: border-box
-    }
-    #wrap{
-        margin: 0 auto;
-        width: 95%;
-    }
-    /* style the container */
-    .container {
-        position: relative;
-        border-radius: 5px;
-        padding: 40px 0 550px 0;
-    }
+@media screen and (min-width: 768px),
+  screen and (min-height: 760px) and (orientation: landscape) {
+  * {
+    box-sizing: border-box;
+  }
 
-    /* style inputs and link buttons */
-    input, .btn {
-        width: 150%;
-        padding: 12px;
-        border: none;
-        border-radius: 4px;
-        margin: 5px 0;
-        opacity: 0.85;
-        display: inline-block;
-        font-size: 17px;
-        line-height: 20px;
-        text-decoration: none; /* remove underline from anchors */
-    }
+  /* style the container */
+  .container {
+    position: relative;
+    border-radius: 5px;
+    padding: 40px 0 550px 0;
+  }
 
-    input:hover,
-    .btn:hover {
-        opacity: 1;
-    }
+  /* style inputs and link buttons */
+  input,
+  .btn {
+    width: 150%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */
+  }
 
-    /* add appropriate colors to fb, twitter and google buttons */
-    .naver {
-        background-color: #03c75a;
-        color: #32373c;
-        font-weight: bold;
-    }
+  input:hover,
+  .btn:hover {
+    opacity: 1;
+  }
 
-    .naver img {
-        width: 10%;
-        position: relative;
-        top: 5px;
-        padding-right: 10px;
-    }
+  /* add appropriate colors to fb, twitter and google buttons */
+  .naver {
+    background-color: #03c75a;
+    color: #32373c;
+    font-weight: bold;
+  }
 
-    .kakao {
-        background-color: #ffe500;
-        color: #32373c;
-        font-weight: bold;
-    }
+  .naver img {
+    width: 10%;
+    position: relative;
+    top: 5px;
+    padding-right: 10px;
+  }
 
-    .kakao img {
-        width: 10%;
-        position: relative;
-        top: 5px;
-        padding-right: 10px;
-    }
+  .kakao {
+    background-color: #ffe500;
+    color: #32373c;
+    font-weight: bold;
+  }
 
-    .google {
-        background-color: #dd4b39;
-        color: #32373c;
-        font-weight: bold;
+  .kakao img {
+    width: 10%;
+    position: relative;
+    top: 5px;
+    padding-right: 10px;
+  }
 
-    }
+  .google {
+    background-color: #dd4b39;
+    color: #32373c;
+    font-weight: bold;
+  }
 
-    .google img {
-        width: 10%;
-        position: relative;
-        top: 5px;
-        padding-right: 10px;
-    }
+  .google img {
+    width: 10%;
+    position: relative;
+    top: 5px;
+    padding-right: 10px;
+  }
 
-    /* style the submit button */
-    input[type=submit] {
-        background-color: rgba(0, 180, 0, 100%);
-        color: white;
-        cursor: pointer;
-    }
+  /* style the submit button */
+  input[type="submit"] {
+    background-color: rgba(0, 180, 0, 100%);
+    color: white;
+    cursor: pointer;
+  }
 
-    input[type=submit]:hover {
-        background-color: rgba(0, 180, 0, 100%);
-    }
+  input[type="submit"]:hover {
+    background-color: rgba(0, 180, 0, 100%);
+  }
 
-    .vl {
-        border: 1px solid lightgrey;
-        width: 30%;
-        position: absolute;
-        left: 35vw;
-        margin: 13px;
-    }
+  .vl {
+    border: 1px solid lightgrey;
+    width: 30%;
+    position: absolute;
+    left: 35vw;
+    margin: 13px;
+  }
 
-    /* Two-column layout */
-    .col1 {
-        margin:0 36%;
-        padding: 0 50px;
-        margin-top: 6px;
-        position: relative;
-    }
+  /* Two-column layout */
+  .col1 {
+    margin: 0 36%;
+    padding: 0 50px;
+    margin-top: 6px;
+    position: relative;
+  }
 
-    .col2 {
-        position: relative;
-        margin: 0px 41%;
-        padding: 20px 10px;
-        font-weight: bold;
-    }
-    /* Clear floats after the columns */
-    .row{
-        position: relative;
-        top: 10vh;
-        right: 6vw;
-    }
-    .row h2{
-        position: relative;
-        left: 46vw;
-        font-weight: bold;
-        font-size: 30px;
-    }
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  .col2 {
+    position: relative;
+    margin: 0px 41%;
+    padding: 20px 10px;
+    font-weight: bold;
+  }
+  /* Clear floats after the columns */
+  .row {
+    position: relative;
+    top: 10vh;
+    right: 6vw;
+  }
+  .row h2 {
+    position: relative;
+    left: 46vw;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-    /* hide some text on medium and large screens */
-    .hide-md-lg {
-        display: none;
-    }
+  /* hide some text on medium and large screens */
+  .hide-md-lg {
+    display: none;
+  }
 }
 /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 767px) , screen and (max-height: 479px) and (orientation: landscape) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box
-    }
+@media screen and (max-width: 767px),
+  screen and (max-height: 479px) and (orientation: landscape) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-    .row h2{
-        position: relative;
-        left: 42vw;
-        font-weight: bold;
-        font-size: 30px;
-    }
-    /* style the container */
-    .container {
-        position: relative;
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px 0 30px 0;
-    }
+  .row h2 {
+    position: relative;
+    left: 42vw;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  /* style the container */
+  .container {
+    position: relative;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 0 30px 0;
+  }
 
-    /* style inputs and link buttons */
-    input, .btn {
-        width: 100%;
-        padding: 12px;
-        border: none;
-        border-radius: 4px;
-        margin: 5px 0;
-        opacity: 0.85;
-        display: inline-block;
-        font-size: 17px;
-        line-height: 20px;
-        text-decoration: none; /* remove underline from anchors */
-    }
+  /* style inputs and link buttons */
+  input,
+  .btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */
+  }
 
-    input:hover,
-    .btn:hover {
-        opacity: 1;
-    }
+  input:hover,
+  .btn:hover {
+    opacity: 1;
+  }
 
-    /* add appropriate colors to fb, twitter and google buttons */
-    .naver {
-        background-color: #03c75a;
-        color: #32373c;
-        font-weight: bold;
-    }
+  /* add appropriate colors to fb, twitter and google buttons */
+  .naver {
+    background-color: #03c75a;
+    color: #32373c;
+    font-weight: bold;
+  }
 
-    .naver img {
-        width: 10%;
-        position: relative;
-        top: 2px;
-        padding-right: 10px;
-    }
+  .naver img {
+    width: 10%;
+    position: relative;
+    top: 2px;
+    padding-right: 10px;
+  }
 
-    .kakao {
-        background-color: #ffe500;
-        color: #32373c;
-        font-weight: bold;
-    }
+  .kakao {
+    background-color: #ffe500;
+    color: #32373c;
+    font-weight: bold;
+  }
 
-    .kakao img {
-        width: 12%;
-        position: relative;
-        top: 4px;
-        padding-right: 10px;
-    }
+  .kakao img {
+    width: 12%;
+    position: relative;
+    top: 4px;
+    padding-right: 10px;
+  }
 
-    .google {
-        background-color: #dd4b39;
-        color: #32373c;
-        font-weight: bold;
+  .google {
+    background-color: #dd4b39;
+    color: #32373c;
+    font-weight: bold;
+  }
 
-    }
+  .google img {
+    width: 10%;
+    position: relative;
+    top: 2px;
+    padding-right: 10px;
+  }
 
-    .google img {
-        width: 10%;
-        position: relative;
-        top: 2px;
-        padding-right: 10px;
-    }
+  /* style the submit button */
+  input[type="submit"] {
+    background-color: rgba(0, 180, 0, 100%);
+    color: white;
+    cursor: pointer;
+  }
 
-    /* style the submit button */
-    input[type=submit] {
-        background-color: rgba(0, 180, 0, 100%);
-        color: white;
-        cursor: pointer;
-    }
+  input[type="submit"]:hover {
+    background-color: rgba(0, 180, 0, 100%);
+  }
 
-    input[type=submit]:hover {
-        background-color: rgba(0, 180, 0, 100%);
-    }
+  .vl {
+    border: 1px solid lightgrey;
+  }
+  /* Two-column layout */
+  .col1 {
+    width: 100%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+    position: relative;
+  }
 
-    .vl{
-        border: 1px solid lightgrey;
-    }
-    /* Two-column layout */
-    .col1 {
-        width: 100%;
-        margin: auto;
-        padding: 0 50px;
-        margin-top: 6px;
-        position: relative;
-    }
+  .col2 {
+    position: relative;
+    top: 3vh;
+    width: 100%;
+    margin: auto;
+    padding: 0 50px;
+  }
 
-    .col2 {
-        position: relative;
-        top: 3vh;
-        width: 100%;
-        margin: auto;
-        padding: 0 50px;
-    }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-    /* Clear floats after the columns */
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    /* hide some text on medium and large screens */
-    .hide-md-lg {
-        display: none;
-    }
-    .col {
-        width: 100%;
-        margin-top: 0;
-    }
-    /* hide the vertical line */
-    .vl {
-        display: none;
-    }
-    /* show the hidden text on small screens */
-    .hide-md-lg {
-        display: block;
-        text-align: center;
-    }
-    footer{
-        position: relative;
-        top: 2vh;
-    }
+  /* hide some text on medium and large screens */
+  .hide-md-lg {
+    display: none;
+  }
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+  footer {
+    position: relative;
+    top: 2vh;
+  }
 }
