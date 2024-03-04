@@ -1,85 +1,183 @@
-*{
-    margin: 0;
-    padding: 0;
+@media screen and (min-width: 768px),
+screen and (min-height: 760px) and (orientation: landscape) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgba(255, 255, 255, 100%);
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    nav {
+        background-color: white;
+    }
+
+    h1{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .center {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subscriber, .event {
+        position: relative;
+        width: 550px;
+        height: 250px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        margin: 20px;
+        top: -300px;
+
+    }
+
+    .subscriber img, .event img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .center .over {
+        color: #fff;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100%;
+        padding-top: 40px;
+        box-sizing: border-box;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .subscriber:hover .over, .event:hover .over {
+        opacity: 1;
+    }
+
+    .subscriber .over h2, .event .over h2 {
+        font-size: 22px;
+        padding-bottom: 1em;
+        overflow: hidden;
+
+    }
+
+    .subscriber .over p, .event .over p {
+        font-size: 18px;
+        padding-bottom: 1.5em;
+    }
+
+    .center a {
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        background-color: rgba(0, 180, 0, 100%);
+        border-radius: 15px;
+        padding: 5px 20px;
+    }
 }
-body{
-    background-color: rgba(255,255,255, 100%);
+
+@media screen and (max-width: 767px),
+screen and (max-height: 479px) and (orientation: landscape) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgba(255, 255, 255, 100%);
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    nav {
+        background-color: white;
+    }
+
+    h1{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .center {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscriber, .event {
+        position: relative;
+        width: 400px;
+        height: 200px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        margin: 10px;
+    }
+
+    .subscriber img, .event img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .center .over {
+        color: #fff;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100%;
+        padding-top: 35px;
+        box-sizing: border-box;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .subscriber:hover .over, .event:hover .over {
+        opacity: 1;
+    }
+
+    .subscriber .over h2, .event .over h2 {
+        font-size: 20px;
+        padding-bottom: 0.7em;
+        overflow: hidden;
+        color: khaki;
+
+    }
+
+    .subscriber .over p, .event .over p {
+        font-size: 16px;
+        padding-bottom: 1.2em;
+    }
+
+    .center a {
+        font-size: 18px;
+        font-weight: 550;
+        text-decoration: none;
+        color: white;
+        background-color: rgba(0, 180, 0, 100%);
+        border-radius: 15px;
+        padding: 5px 20px;
+
+    }
 }
-
-ul{
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-}
-
-
-nav{
-    background-color: white;
-}
-
-#center{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 40px;
-    padding: 10px;
-}
-
-.subscriber, .event {
-    opacity: 1.0;
-    filter: alpha(opacity=50);
-    justify-content: left;
-    border: 1px solid black;
-}
-
-.subscriber img, .event img {
-    width: 40vw;
-}
-
-.subscriber:hover, .event:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=100);
-}
-
-.subscriber h2, .event h2 {
-    border-bottom: 1px solid black;
-    color: black;
-    position: relative;
-}
-
-.subscriber:hover, .event:hover {
-    transition: all 0.2s ease;
-    opacity: 1;
-}
-
-.subscriber a, .event a{
-    background-color: gray;
-    margin: 2px;
-    padding: 2px;
-}
-
-.event section, .subscriber section {
-    position: relative;
-    width: 40vw;
-    height: 14vh;
-    top: -150px;
-    color: black; background-color: yellow;
-    text-decoration: none;
-    opacity: 0;
-    text-align: center;
-}
-
-.subscriber section:hover, .event section:hover {
-    opacity: 1;
-    transition-property: all;
-    transition-delay: 0.3s;
-    transition-duration: 0.7s;
-    transition-timing-function: linear;
-}
-
-
-
-
-
-
