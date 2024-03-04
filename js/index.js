@@ -5,7 +5,8 @@ const contents = document.querySelector("#contents");
 let service = document.querySelector("#service");
 let hamburger = document.querySelector("#hamburger");
 let nav1 = document.querySelector("#nav1");
-let m_li = document.querySelector("#m_li");
+let m_li1 = document.querySelector("#m_li1");
+let m_li2 = document.querySelector("#m_li2");
 
 let timer = null;
 
@@ -14,11 +15,10 @@ const clickHamburger = function (e) {
   e.stopPropagation();
   if (service.className === "hide") {
     nav1.className = "m_nav1";
-    service.className = "m_service_box";
-    m_li.className = "m_li";
+    m_li1.className = "m_li";
+    m_li2.className = "m_li";
   } else {
     nav1.className = "hide";
-    service.className = "hide";
   }
 };
 
@@ -54,11 +54,9 @@ const serviceMouseleave = function () {
 const classSet = function () {
   if (window.innerWidth < 768) {
     nav1.className = "hide";
-    service.className = "hide";
     hamburger.addEventListener("click", clickHamburger);
   } else {
     nav1.className = "nav1";
-    service.className = "hide";
   }
   book_hov.addEventListener("mouseenter", bookMouseenter);
   content_hov.addEventListener("mouseenter", contentsMouseenter);
