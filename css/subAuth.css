@@ -12,7 +12,7 @@ and (orientation: landscape) {
     }
 
     body{
-        background-color:  rgba(242,242,242, 50%);
+        background-color:  white;
     }
 
     .Authmain{
@@ -22,7 +22,7 @@ and (orientation: landscape) {
     .Authmain img{
         width: 50%;
     }
-    ul li{
+    .check, .name, .tel, .btn1, .notice{
         list-style: none;
         font-size: 12px;
     }
@@ -126,9 +126,9 @@ and (orientation: landscape) {
         width: 100%;
     }
     body{
-        background-color:  rgba(242,242,242, 50%);;
+        background-color: white;
     }
-    ul li{
+    .check, .name, .tel, .btn1, .notice{
         list-style: none;
         font-size: 10px;
     }
