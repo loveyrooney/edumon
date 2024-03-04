@@ -23,7 +23,7 @@ screen and (min-height: 760px) and (orientation: landscape) {
     .image img{
         position: relative;
         top: -30px;
-        width: 50%;
+        width: 600px;
     }
     .info{
         display: flex;
@@ -70,6 +70,12 @@ screen and (min-height: 760px) and (orientation: landscape) {
     button:hover{
         color: white;
         background-color: rgba(0, 180, 0, 100%);
+    }
+    footer img {
+        width: 94vw;
+        height: auto;
+        position: relative;
+        top: 120px;
     }
 }
 
@@ -147,5 +153,11 @@ screen and (max-height: 479px) and (orientation: landscape) {
     button:hover{
         color: white;
         background-color: rgba(0, 180, 0, 100%);
+    }
+    footer img {
+        width: 94vw;
+        height: auto;
+        position: relative;
+        top: 30px;
     }
 }

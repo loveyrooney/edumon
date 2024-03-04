@@ -153,6 +153,12 @@ screen and (min-height: 760px) and (orientation: landscape) {
         left: 22vw;
         width: 50vw;
     }
+    footer img {
+        width: 94vw;
+        height: auto;
+        position: relative;
+        top: 120px;
+    }
 }
 
 @media screen and (max-width: 767px),
@@ -303,5 +309,11 @@ screen and (max-height: 479px) and (orientation: landscape) {
         position: relative;
         top: 50px;
         margin: 0 auto;
+    }
+    footer img {
+        width: 94vw;
+        height: auto;
+        position: relative;
+        top: 60px;
     }
 }
