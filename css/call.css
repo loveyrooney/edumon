@@ -37,7 +37,7 @@
   }
 
   .txt {
-    padding: 40px 0px;
+    padding: 40px 0;
     font-weight: bold;
     font-size: 1.2rem;
     display: flex;
@@ -46,7 +46,7 @@
   }
   .txt input {
     padding: 10px 80px 10px 10px;
-    margin: 0px 70px;
+    margin: 0 70px;
     border-radius: 5px;
     border: 1px solid gray;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
@@ -98,7 +98,7 @@
   .image img {
     position: relative;
     top: -30px;
-    left: -35px;
+    left: -20px;
     width: 100vw;
   }
   .info {
