@@ -129,7 +129,7 @@ check_choice.forEach(item=>{
 
 /* 쇼핑 계속하기 */
 document.getElementById("shopping").onclick=function (){
-    location.replace('product.html');
+    location.href='product.html';
 }
 
 /* 전체 삭제 */
@@ -156,6 +156,8 @@ document.getElementById("order").addEventListener('click',function (){
 
     if(check1===false&&check2===false) {
         alert('하나 이상의 상품을 선택해 주세요.');
+    }else{
+        location.href='login.html';
     }
 });
 
